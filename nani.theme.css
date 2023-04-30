@@ -532,6 +532,9 @@ html:not(.app-focused) #app-mount::after {
     margin-bottom: calc(var(--guild-bar-width-700, 72px) - 1px);
   }
 }
+
+/*
+
 .channelNotice-2bJINM {
     height: 20px;
     margin: 0;
@@ -565,3 +568,18 @@ html:not(.app-focused) #app-mount::after {
     padding: unset;
     opacity: 1;
 }
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
+    opacity: 0% !important;
+    width: 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
+    opacity: 100% !important;
+    width: 32px;
+}
+
+.container-YkUktl {
+    justify-content: space-between;
+}
+
