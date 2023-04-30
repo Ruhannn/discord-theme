@@ -52,9 +52,9 @@
 }
 
 /**/
-#private-channels a[href="/store"] {
-    display: none;
+.bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {
+  display: none;
 }
-
+#private-channels [href="/store"] {display: none}
 
 
