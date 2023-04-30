@@ -52,9 +52,21 @@
 }
 
 /**/
-.bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {
-  display: none;
+@import url('https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelList.css');
+
+html:not(.app-focused) {
+  transition: filter 400ms ease-in;
+  filter: blur(6px);
 }
-#private-channels [href="/store"] {display: none}
 
+html.app-focused {
+  transition: 550ms ease-out;
+}
 
+html:not(.app-focused) #app-mount::after {
+  content: "";
+  z-index: 200;
+  position: fixed;
+  background: rgba(0,0,0,0.5);
+  width: 100%; height: 100%;
+}
