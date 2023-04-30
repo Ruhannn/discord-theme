@@ -52,7 +52,7 @@
 }
 
 /**/
-@import url('https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelList.css');
+
 
 html:not(.app-focused) {
   transition: filter 400ms ease-in;
@@ -70,16 +70,6 @@ html:not(.app-focused) #app-mount::after {
   background: rgba(0,0,0,0.5);
   width: 100%; height: 100%;
 }
-
-/**
- * @name         smallDMchannelList
- * @description  makes the dm and channellist smaller to provide more space for the chat
- * @author       lolpowerluke
- * @version      1.0.0
- * @source       https://github.com/lolpowerluke/smallDMchannelList/blob/main/smallDMchannelList.css
- * @website      https://lolpowerluke.github.io/
- * @invite       GwjrQVDNJ2
-*/
 
 :root {
   --channel-name-no-hover-margin: 15px; /*15px for hidding the name, 0px for showing the name*/
