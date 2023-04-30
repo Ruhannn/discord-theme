@@ -533,53 +533,64 @@ html:not(.app-focused) #app-mount::after {
   }
 }
 
-/*
+.embedVideoImageComponent-3Clc3C {
+    justify-content: unset;
+    align-items: unset;
+}
+.background-3d_SjE {
+    background-color: transparent;
+}
+.fieldList-in8WkP {
+    background-color: transparent;
+}
+.field-21XZwa:last-child {
+    margin-right: 0 !important;
+}
+.field-21XZwa {
+    width: calc((100%/3) - ((20/3) * 1px));
+    border-radius: 8px;
+    background-color: var(--background-primary);
+    max-height: none;
+    flex-flow: column;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 0 !important;
+    position: relative;
+    overflow-y: scroll;
+    height: 125px;
+}
+.field-21XZwa::-webkit-scrollbar {
+    width: 0;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    background-color: var(--background-secondary) !important;
+    border-radius: 8px;
+    transition: .3s;
+}
+.field-21XZwa .fieldButton-14lHvK:hover {
+    background-color: var(--background-secondary-alt) !important;
+}
+.field-21XZwa .fieldButton-14lHvK:hover > div {
+    background-image: none !important;
+}
+.field-21XZwa .fieldButton-14lHvK:nth-child(1) {
+    right: 5px;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    bottom: 10px;
+    position: absolute;
+}
+.avatar-3mTjvZ ~ button {
+    margin-right: 15px;
+    border-radius: 8px;
+}
 
-.channelNotice-2bJINM {
-    height: 20px;
-    margin: 0;
-    padding: 16px;
-    transition: 0.2s ease-in-out;
-}
-.channelNotice-2bJINM .textBlock-2FWDjE {
-    height: 0;
-    opacity: 0;
-    margin: 0;
-    transition: 0.3s ease-in-out;
-}
-.channelNotice-2bJINM button {
-    height: 0;
-    opacity: 0;
-    margin: 0;
-    padding: 0;
-    transition: 0.3s ease-in-out;
-}
-.channelNotice-2bJINM:hover {
-    height: 152px;
-}
-.channelNotice-2bJINM:hover .textBlock-2FWDjE {
-    height: 16px;
-    margin: 4px auto;
-    opacity: 1;
-}
-.channelNotice-2bJINM:hover button {
-    height: 32px;
-    margin: unset;
-    padding: unset;
-    opacity: 1;
-}
-.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
-    opacity: 0% !important;
-    width: 0px;
-    transition: all 0.2s ease-in-out;
-}
 
-.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
-    opacity: 100% !important;
-    width: 32px;
-}
 
-.container-YkUktl {
-    justify-content: space-between;
-}
+
+
+
+
+
 
