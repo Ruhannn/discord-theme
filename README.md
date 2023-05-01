@@ -11,7 +11,7 @@
 
 [Discord-11](https://github.com/zuzumi-f/Discord-11/blob/main/Discord11.theme.css) is made by [zuzumi](https://github.com/zuzumi-f)
 
-I customize [nani](https://github.com/Ruhannn/discord-theme/blob/main/nani.theme.css) from [bdeditor](https://github.com/Ruhannn/discord-theme/blob/main/nani.theme.css)
+I customize [nani](https://github.com/Ruhannn/discord-theme/blob/main/nani.theme.css) from [bdeditor](https://bdeditor.dev/theme/solana)
 and the theme is made by [Disease](https://github.com/maenDisease)
 
 
