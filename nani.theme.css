@@ -82,5 +82,5 @@ html:not(.app-focused) #app-mount::after {
 }
 
 
-@iport url(https://dablulite.github.io/accountdetailscolumns/import.css);
+@import url(https://dablulite.github.io/accountdetailscolumns/import.css);
 
