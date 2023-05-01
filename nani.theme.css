@@ -67,10 +67,14 @@ html:not(.app-focused) #app-mount::after {
   background: rgba(0,0,0,0.5);
   width: 100%; height: 100%;
 }
+/**
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
 :root {
-  --channel-name-no-hover-margin: 15px; /*15px for hidding the name, 0px for showing the name*/
-  --channel-name-no-hover-opacity: 0; /*0 for hiding the name, 1 for showing the name*/
-  --siderbar-no-hover-width: 65px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
+	--settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
+	--settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
+	--settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
 }
+
 
