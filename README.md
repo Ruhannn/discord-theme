@@ -24,7 +24,3 @@ Hi there! Just wanted to make sure I shout out them for their great work. They r
 I customize them slightly.<img src="https://media.tenor.com/PsqSjsWBQgkAAAAj/yaay-anime.gif" width="20"height="20">
 </h6>
 
-
-
-
-
