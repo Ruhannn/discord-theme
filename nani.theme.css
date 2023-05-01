@@ -77,461 +77,7 @@ html:not(.app-focused) #app-mount::after {
   --siderbar-no-hover-width: 65px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
 }
 
-/*small dm/channel list*/
-@media (max-width: 700px) {
-  #app-mount .sidebar-1tnWFu {
-    width: 0;
-  }
-  #app-mount .sidebar-1tnWFu>.privateChannels-oVe7HL,
-  #app-mount .sidebar-1tnWFu>.container-1NXEtd {
-    width: 0;
-    z-index: 2;
-    margin-top: 0;
-    height: calc(100% - 25px);
-    padding-bottom: 10px;
-    box-sizing: border-box;
-    position: fixed;
-    box-shadow: var(--elevation-high);
-    border-radius: 0;
-    overflow: hidden;
-    z-index: 3;
-    transition: width .5s ease;
-  }
-  #app-mount .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu>.privateChannels-oVe7HL,
-  #app-mount .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu>.container-1NXEtd {
-    width: var(--siderbar-no-hover-width, 60px);
-  }
-  .sidebar-1tnWFu>.privateChannels-oVe7HL {
-    width: var(--siderbar-no-hover-width, 60px);
-    transition: width 0.5s;
-    background: linear-gradient(to bottom, rgba(var(--back-gradient-top, 0,0,0), var(--back-gradient-opacity, 0)) 80%, rgba(var(--back-gradient-bottom, 0, 0, 0), var(--back-gradient-opacity, 0)));
-    backdrop-filter: blur(2px);
-  }
-  #app-mount .sidebar-1tnWFu>.privateChannels-oVe7HL:hover,
-  #app-mount .sidebar-1tnWFu>.container-1NXEtd:hover {
-    width: 240px;
-  }
-  #app-mount .container-6sXIoE.withTimeline-824fT_,
-  #app-mount .container-6sXIoE .bar-g2ZMIm {
-    width: var(--guild-bar-width-700, 72px);
-    transition: width .5s;
-  }
-  #app-mount .sidebar-1tnWFu .container-6sXIoE.withTimeline-824fT_:hover,
-  #app-mount .sidebar-1tnWFu .container-6sXIoE:hover .bar-g2ZMIm {
-    width: 240px;
-  }
-  .container-6sXIoE:hover .gameIconWrapper-zXQ03M {
-    margin-left: 0px;
-  }
-}
-.sidebar-1tnWFu:not(:hover) .pinnedChannelsHeaderContainer-89Gjv4 .headerAmount-_-7GrS {
-  margin-left: -15px;
-}
-@media (min-width: 700px) {
-  .sidebar-1tnWFu {
-    width: var(--siderbar-no-hover-width, 60px);
-    transition: width 0.5s;
-  }
-  #app-mount .sidebar-1tnWFu:hover {
-    width: 240px;
-  }
-  #app-mount .container-6sXIoE.withTimeline-824fT_,
-  #app-mount .container-6sXIoE .bar-g2ZMIm {
-    width: 60px;
-    transition: width 0.5s;
-  }
-  #app-mount .sidebar-1tnWFu:hover .container-6sXIoE.withTimeline-824fT_,
-  #app-mount .sidebar-1tnWFu:hover .container-6sXIoE .bar-g2ZMIm {
-    width: 240px;
-  }
-  .sidebar-1tnWFu:not(:hover) .barText-lmqc5O :first-child {
-    margin-left: -5px;
-  }
-  .sidebar-1tnWFu:not(:hover) .barText-lmqc5O :last-child {
-    margin-right: -5px;
-  }
-  .sidebar-1tnWFu:not(:hover) .container-6sXIoE.withTimeline-824fT_ .coverWrapper-YAplwJ {
-    margin-left: 6px;
-  }
-  .sidebar-1tnWFu:hover .panels-3wFtMD .container-YkUktl .avatarWrapper-1B9FTW,
-  .sidebar-1tnWFu:hover .gameIconWrapper-zXQ03M {
-    margin-left: 0px;
-  }
-}
-.sidebar-1tnWFu:not(:hover) .voiceUserSummary-huJ8Md > .container-1jha_j > .icon-3akWb2 ~ *,
-.activityRow-2wnr1d ~ .separator-2jb_gA,
-.fa-arrow-right:before,
-.sidebar-1tnWFu:not(:hover) .ownerIcon-255uKo,
-.sidebar-1tnWFu:not(:hover) .size24-9rrwDS .avatarContainer-gPrCzX,
-.sidebar-1tnWFu:not(:hover) .total-1c5KCN:after,
-.sidebar-1tnWFu:not(:hover) .role-2TIOKu,
-.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .usernameFont-2oJxoI,
-.sidebar-1tnWFu:not(:hover) .click-to-chat-btn,
-.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .icons-2mwuFp,
-.sidebar-1tnWFu:not(:hover) .info-88fTUI,
-.sidebar-1tnWFu:not(:hover) .actions-zk2vB_,
-.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3.selected-2TbFuo .iconItem-1EjiK0,
-.sidebar-1tnWFu:not(:hover) .RestoreDirectMessages-style-divider,
-.sidebar-1tnWFu:not(:hover) .RestoreDirectMessages-style-button {
-  display: none;
-}
-.sidebar-1tnWFu:not(:hover) .RestoreDirectMessages-style-button {
-  margin-left: 10px;
-}
-.panels-3wFtMD .container-YkUktl .avatarWrapper-1B9FTW,
-.gameIconWrapper-zXQ03M {
-  margin-left: 6px;
-  transition: margin-left 0.3s;
-  margin-right: 0;
-}
-.panels-3wFtMD .container-YkUktl .avatarWrapper-1B9FTW {
-  width: 100%;
-}
-.containerDefault-YUSmu3 .list-2x9Cl9.collapsed-1oYzUu {
-  width: calc(100% - 26px);
-}
-.sidebar-1tnWFu:not(:hover) .users-2JoyGL {
-  margin-top: -5px;
-  margin-right: -22px;
-}
-.sidebar-1tnWFu:not(:hover) .total-1c5KCN {
-  margin-top: 5px;
-}
-.containerDefault-YUSmu3:not(:hover) .iconItem-1EjiK0 {
-  display: none;
-}
-.sidebar-1tnWFu:not(:hover) .children-1MGS9G {
-  margin-right: -12px;
-}
-.sidebar-1tnWFu:not(:hover) .users-2JoyGL,
-.sidebar-1tnWFu:not(:hover) .total-1c5KCN {
-  background-color: transparent;
-  font-size: 9px;
-  display: block;
-}
-.sidebar-1tnWFu:not(:hover) .ti-indicator {
-  transform: rotate(-90deg);
-  margin-right: -10px;
-}
-@media (min-width:700px) {
-  .container-1zzFcN .connection-3k9QeF .button-12Fmur,
-  .actionButtons-2vEOUh .button-1EGGcP {
-    width: 0px;
-    padding: 0px;
-    height: 0px;
-    min-width: 0;
-    min-height: 0;
-    transition: all 0.5s;
-  }
-  .container-1zzFcN .connection-3k9QeF .button-12Fmur svg {
-    width: 100%;
-    height: 100%;
-  }
-  .sidebar-1tnWFu:hover .actionButtons-2vEOUh .button-1EGGcP {
-    width: auto;
-    padding: 0px;
-    height: 32px;
-    min-width: 60px;
-    min-height: 32px;
-  }
-  .sidebar-1tnWFu:hover .container-1zzFcN .connection-3k9QeF .button-12Fmur {
-    width: 32px;
-    height: 32px;
-  }
-  .actionButtons-2vEOUh .button-1EGGcP .buttonIcon-2Zsrs2 {
-    width: 0px;
-    height: 0px;
-    transition: all 0.5s;
-  }
-  .sidebar-1tnWFu:hover .actionButtons-2vEOUh .button-1EGGcP .buttonIcon-2Zsrs2 {
-    width: 20px;
-    height: 20px;
-  }
-  .container-1zzFcN .connection-3k9QeF .button-12Fmur .contents-3ca1mk svg {
-    width: 0px;
-    height: 0px;
-    transition: all 0.5s;
-  }
-  .sidebar-1tnWFu:hover .container-1zzFcN .connection-3k9QeF .button-12Fmur .contents-3ca1mk svg {
-    width: 20px;
-    height: 20px;
-  }
-}
-@media (max-width: 700px) {
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU:not(:hover) .actions-zk2vB_,
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU:not(:hover) .info-88fTUI,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_:not(:hover) .flex-2S1XBF,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_:not(:hover) .timeline-UWmgAx .barText-lmqc5O>:nth-child(2),
-  .panels-3wFtMD .nameTag-sc-gpq {
-    display: none;
-  }
-  #app-mount .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .actionButtons-2vEOUh .button-f2h6uQ .flex-2S1XBF {
-    font-size: 0px;
-  }
-  .panels-3wFtMD {
-    pointer-events: none;
-  }
-  .panels-3wFtMD > * {
-    pointer-events: all;
-  }
-  #app-mount .panels-3wFtMD .wrapper-3Hk9OB {
-    width: var(--guild-bar-width-700, 72px);
-    max-width: unset;
-    transition: width .5s;
-  }
-  #app-mount .panels-3wFtMD .wrapper-3Hk9OB:hover {
-    width: 240px;
-  }
-  .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF {
-    border-radius: 18px;
-    padding: 2px;
-  }
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .actionButtons-2vEOUh .button-1EGGcP *,
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .actionButtons-2vEOUh .button-1EGGcP {
-    width: 20px;
-    height: 20px;
-  }
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .container-1zzFcN .connection-3k9QeF .button-12Fmur, 
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .actionButtons-2vEOUh .button-1EGGcP {
-    width: 32px;
-    height: 32px;
-    padding: 0;
-    min-width: unset;
-  }
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .container-1zzFcN,
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .container-1zzFcN > .flex-2S1XBF > .flex-2S1XBF,
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .container-1zzFcN > .flex-2S1XBF {
-    display: flex;
-    flex-direction: column;
-  }
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .actionButtons-2vEOUh {
-    padding: 0;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  .panels-3wFtMD .wrapper-3Hk9OB:hover .voiceTimer {
-    width: 160px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .actionButtons-2vEOUh .button-1EGGcP .buttonIcon-2Zsrs2 {
-    width: 20px;
-    height: 20px;
-    transition: all 0.5s;
-  }
-  .panels-3wFtMD .wrapper-3Hk9OB:not(:hover) .actionButtons-2vEOUh .button-1EGGcP .contents-3ca1mk {
-    padding: 6px;
-  }
-  .panels-3wFtMD>.container-YkUktl>.flex-2S1XBF {
-    background-color: var(--back-activity-panels, var(--background-floating));
-    border: none;
-    box-shadow: var(--elevation-high);
-    margin-left: 5px;
-  }
-  .panels-3wFtMD .container-1zzFcN,
-  .panels-3wFtMD .container-6sXIoE,
-  .panels-3wFtMD .panel-2ZFCRb {
-    background-color: var(--back-activity-panels, var(--background-floating));
-    border-radius: 5px;
-    border: none;
-    box-shadow: var(--elevation-high);
-  }
-  .panels-3wFtMD .container-YkUktl .avatarWrapper-1B9FTW {
-    min-width: 0px;
-  }
-  .panels-3wFtMD .container-YkUktl {
-    border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  }
-  .panels-3wFtMD .container-YkUktl:hover {
-    border-radius: 0 25px 0 0;
-    border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-    border-left: 0;
-    border-bottom: 0;
-  }
-}
-.panels-3wFtMD .container-YkUktl  {
-  overflow: hidden;
-}
-.panels-3wFtMD .container-YkUktl .nameTag-sc-gpq {
-  margin-left: var(--channel-name-no-hover-margin);
-  transition: margin .5s;
-}
-#app-mount .sidebar-1tnWFu:hover .panels-3wFtMD .container-YkUktl .nameTag-sc-gpq {
-  margin-left: 0;
-}
-.sidebar-1tnWFu:not(:hover) .container-1zzFcN .connection-3k9QeF .flex-2S1XBF {
-  margin: 0px;
-}
-.container-1zzFcN .connection-3k9QeF .subtext-2HDqJ7 {
-  text-overflow: clip;
-}
-.voiceTimer {
-  white-space: normal;
-}
-.sidebar-1tnWFu:not(:hover) .children-1MGS9G .voiceCounter {
-  margin-right: 10px;
-}
-/*Channel list*/
-.content-2a4AW9 > .wrapper-NhbLHG .name-28HaxV,
-.containerDefault-YUSmu3 .name-28HaxV {
-  transform: translateX(var(--channel-name-no-hover-margin, 15px));
-  opacity: var(--channel-name-no-hover-opacity, 0);
-  transition: transform 0.2s, opacity 0.5s;
-}
-.sidebar-1tnWFu:hover .content-2a4AW9 > .wrapper-NhbLHG .name-28HaxV,
-.sidebar-1tnWFu:hover .containerDefault-YUSmu3 .name-28HaxV {
-  transform: translateX(0);
-  opacity: 1;
-}
-.sidebar-1tnWFu:hover .container-1Bj0eq .containerDefault-YUSmu3 .name-28HaxV {
-  margin-left: 27px;
-}
-.container-1Bj0eq .containerDefault-YUSmu3 .name-28HaxV {
-  margin-left: 42px;
-}
-.channelNotice-tO6Tus {
-  width: 200px;
-}
-.containerDefault-YUSmu3.selected-2TbFuo .userLimit-VbEkeM, 
-.iconVisibility-vptxma:focus-within .userLimit-VbEkeM, 
-.iconVisibility-vptxma:focus .userLimit-VbEkeM, 
-.iconVisibility-vptxma:hover .userLimit-VbEkeM {
-  display: block;
-  margin-left: 5px;
-}
-.container-1zzFcN .actionButtons-2vEOUh .contents-3ca1mk {
-  font-size: 0px;
-  transition: font-size 0.5s;
-}
-.sidebar-1tnWFu:hover .container-1zzFcN .actionButtons-2vEOUh .contents-3ca1mk {
-  font-size: initial;
-}
-.voiceUser-3nRK-K {
-  margin-right: 4px;
-}
-.scroller-1ox3I2 {
-  padding-right: 0 !important;
-}
-/*Activity in vc*/
-.containerDefault-YUSmu3:hover .activityRow-2wnr1d .content-2Lhv86 {
-  border-bottom: 0;
-}
-.containerDefault-YUSmu3 .list-2x9Cl9 {
-  padding-bottom: 0;
-}
-.activityRow-2wnr1d .content-2Lhv86 {
-  width: 20px;
-}
-.activityRow-2wnr1d .activity-Rs0ViZ {
-  margin-left: 15px;
-  opacity: 0;
-  transition: margin-left 0.2s, opacity 0.5s;
-}
-.sidebar-1tnWFu:hover .activityRow-2wnr1d .activity-Rs0ViZ {
-  margin-left: 0;
-  opacity: 1;
-}
-.containerDefault-YUSmu3:hover .activityRow-2wnr1d:first-child .content-2Lhv86 {
-  border-top: 0;
-}
-.containerDefault-YUSmu3:hover .activityRow-2wnr1d .separator-2jb_gA {
-  display: none;
-}
-.listDefault-1QEzz4 {
-  margin-top: -1px
-}
-.activityRow-2wnr1d {
-  margin: 0;
-  padding: 0;
-}
-.activityRow-2wnr1d .content-2Lhv86 {
-  margin: 0 8px;
-  border-radius: 0;
-  border-bottom: 0;
-}
-/*mention and unread badges*/
-.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .UnreadCountBadges-badge-channelUnread {
-  border-radius: 5px 0 0 0;
-  padding: 0;
-  bottom: 0;
-}
-.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .mentionsBadge-3H1BKJ {
-  top: 0;
-  padding: 0;
-}
-.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .mentionsBadge-3H1BKJ .numberBadge-37OJ3S {
-  border-radius: 0 0 0 5px;
-}
-#app-mount .sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .numberBadge-37OJ3S {
-  font-size: 10px;
-  min-width: 12px;
-  max-width: 20px;
-  min-height: unset;
-  height: 12px;
-  padding: 0;
-}
-.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .UnreadCountBadges-badge-channelUnread,
-.sidebar-1tnWFu:not(:hover) .containerDefault-YUSmu3 .mentionsBadge-3H1BKJ {
-  position: absolute;
-  right: 0;
-}
-.sidebar-1tnWFu:not(:hover) .containerDefault-3TQ5YN + .containerDefault-YUSmu3 .mentionsBadge-3H1BKJ .numberBadge-37OJ3S {
-  border-radius: 0 5px 0 5px;
-}
-.sidebar-1tnWFu:not(:hover) [href="/channels/@me"] .numberBadge-37OJ3S {
-  position: absolute;
-  right: 15px;
-  top: 10px;
-  font-size: 10px;
-  height: 12px;
-  width: 12px !important;
-  min-height: unset;
-  min-width: unset;
-}
-/*Server boost progress bar*/
-.sidebar-1tnWFu .progressBarContainer-2E4oR- {
-  width: 45px;
-  transition: width 0.5s;
-}
-.sidebar-1tnWFu:hover .progressBarContainer-2E4oR- {
-  width: 225px;
-}
-/*DM-list*/
-.channel-1Shao0 {
-  margin-right: 4px;
-}
-.privateChannels-oVe7HL .scrollerBase-_bVAAt {
-  padding-right: 0 !important;
-}
-/*Panels in sidebar on smaller window sizes*/
-@media (max-width:700px) {
-  #app-mount .panels-3wFtMD {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background: none;
-    border: none;
-    z-index: 100;
-  }
-  /* User Container */
-  .container-YkUktl .noWrap-hBpHBz {
-    display: none;
-    opacity: 0;
-    pointer-events: none;
-  }
-  .container-YkUktl:hover .noWrap-hBpHBz {
-    display: flex;
-    opacity: 1;
-    pointer-events: all;
-  }
-}
-/*Small ServerBar fixes for smaller window sizes*/
-@media (max-width:700px) {
-  .guilds-2JjMmN {
-    margin-bottom: calc(var(--guild-bar-width-700, 72px) - 1px);
-  }
-}
+/* 
 
 .embedVideoImageComponent-3Clc3C {
     justify-content: unset;
@@ -585,6 +131,239 @@ html:not(.app-focused) #app-mount::after {
     margin-right: 15px;
     border-radius: 8px;
 }
+/*
+
+/**
+ * @name KeyboardClick
+ * @author SpoonMcForky#8008
+ * @authorId 333772129868972032
+ * @description Plays a click sound when a button is pressed, similarily to OperaGX (uses the same sounds)
+ * @version 2.2.0
+ * @updateUrl https://raw.githubusercontent.com/SpoonMcForky/BetterDiscordPlugins/main/Plugins/KeyboardClick.plugin.js
+ * @source https://raw.githubusercontent.com/SpoonMcForky/BetterDiscordPlugins/main/Plugins/KeyboardClick.plugin.js
+ * @website https://github.com/SpoonMcForky/BetterDiscordPlugins/blob/main/Plugins/KeyboardClick.plugin.js
+ */
+// Thanks @ChipChaddleson#0001 and @Toaster#0110 on discord for helping with code
+                    const click1 = new Audio('https://dl.dropboxusercontent.com/s/vfxrfu2u8jiq6xw/click1.wav?raw=1');
+                    const click2 = new Audio('https://dl.dropboxusercontent.com/s/wtw25tzfctkpers/click2.wav?raw=1');
+                    const click3 = new Audio('https://dl.dropboxusercontent.com/s/kqjn62hwk035d2w/click3.wav?raw=1');
+                    const backspace = new Audio('https://dl.dropboxusercontent.com/s/lluvdpgt8n8ohm0/backspace.wav?raw=1');
+                 //   const enter = new Audio('https://dl.dropboxusercontent.com/s/lluvdpgt8n8ohm0/backspace.wav?raw=1');
+module.exports = (() => {
+    const config = {
+        info: {
+            name: 'KeyboardClick',
+            authors: [{
+                name: 'SpoonMcForky#8008',
+                discord_id: '333772129868972032',
+                github_username: 'SpoonMcForky'
+            }],
+            version: '2.2.0',
+            description: 'Plays a click sound when a button is pressed, similarily to OperaGX (uses the same sounds)',
+            github: 'https://github.com/SpoonMcForky/BetterDiscordPlugins',
+            github_raw: 'https://raw.githubusercontent.com/SpoonMcForky/BetterDiscordPlugins/main/Plugins/KeyboardClick.plugin.js'
+        },
+        version: '2.2.0',
+        changelogItems: [
+            {
+                version: '2.0.2',
+                title: 'v2.0.2: Added Key!',
+                type: 'added',
+                items: [
+                    'Added Capslock and Meta buttons (Windows Button) to list of key exceptions.',
+                    'Also added this changelog',
+                    'Please open an issue or DM me on Discord if you have any problems or would like me to add a key!'
+                ]
+            },
+            {
+                version: '2.0.3',
+                title: 'v2.0.3: Slight rewrite',
+                type: 'added',
+                items: [
+                    'Moved exceptions to an array',
+                    'Got rid of redundant functions',
+                    'Attempted to eliminate spaghetti'
+                ]
+            },
+            {
+                version: '2.0.5',
+                title: 'v2.0.5: Added Exception',
+                type: 'added',
+                items: [
+                    'Added volume up and down keys to exception list'
+                ]
+            },
+
+            {
+                version: '2.0.6',
+                title: 'v2.0.6: Added Exception',
+                type: 'fixed',
+                items: [
+                    'Fixed backspace tempo '
+                ]
+            },
+                
+            {
+                version: '2.0.11',
+                title: 'v.2.0.11: Volume Slider',
+                type: 'added',
+                items: [
+                    'Added Volume Slider',
+                    'If you got spammed with updates, Sorry.'
+                ]
+            },
+            {
+                version: '2.1.0',
+                title: 'v.2.1.0: New Feature!',
+                type: 'added',
+                items: [
+                    'Added a settings panel for custom exceptions!',
+                    'Removed some left over code',
+                    ':)'
+                ]
+            },
+            { 
+              version: '2.2.0',
+              title: 'v2.2.0: Code Optimizations',
+              type: 'added',
+              items: [
+                'Thanks to @Toaster#0110, repetition in code is no more'
+               ]
+            }
+        ],
+        get changelog() {
+            const item = this.changelogItems.find(item => item.version === this.version);
+            if (!item) return item;
+            return [item];
+        },
+        defaultConfig: [{
+            type: "slider",
+            id: "volume",
+            name: "Volume",
+            note: "Changes volume of clicks",
+            value: 50,
+            min: 0,
+            max: 100,
+            markers: Array.from(Array(11), (_, i) => 10 * i),
+            stickToMarkers: true
+        },
+            {
+            type: "textbox",
+            id: "exceptions",
+            name: "Exceptions (Requires Reload)",
+            note: "Add keys here to stop them from making a click sound. Separate keys by a comma, no space {Key1,Key2}. Letter keys are formatted like this: \"KeyA\". Easily see key codes here: https://keycode.info",
+            value: ",,ControlLeft,ControlRight,ShiftLeft,ShiftRight,AltLeft,AltRight,ArrowUp,ArrowRight,ArrowLeft,ArrowDown,CapsLock,MetaLeft,MetaRight,MediaPlayPause,",
+        }]
+    };
+
+ return !global.ZeresPluginLibrary ? class {
+
+        constructor() { this._config = config; }
+        getName() { return config.info.name; }
+        getAuthor() { return config.info.authors.map(a => a.name).join(', '); }
+        getDescription() { return config.info.description; }
+        getVersion() { return config.info.version; }
+        load() {
+            BdApi.showConfirmationModal('Library Missing', `The library plugin needed for ${config.info.name} is missing. Please click Download Now to install it.`, {
+                confirmText: 'Download Now',
+                cancelText: 'Cancel',
+                onConfirm: () => {
+                    require('request').get('https://rauenzi.github.io/BDPluginLibrary/release/0PluginLibrary.plugin.js', async (error, response, body) => {
+                        if (error) return require('electron').shell.openExternal('https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js');
+                        await new Promise(r => require('fs').writeFile(require('path').join(BdApi.Plugins.folder, '0PluginLibrary.plugin.js'), body, r));
+                    });
+                }
+            });
+        }
+        start() {
+            ZeresPluginLibrary.PluginUpdater.checkForUpdate(this.getName(), this.getVersion(), 'https://raw.githubusercontent.com/SpoonMcForky/BetterDiscordPlugins/main/Plugins/KeyboardClick.plugin.js');
+        if (window.PluginUpdates && window.PluginUpdates.plugins) delete PluginUpdates.plugins['https://github.com/SpoonMcForky/BetterDiscordPlugins/blob/main/Plugins/KeyboardClick.plugin.js'];
+         }
+        stop() { }
+
+    } : (([Plugin, Api]) => {
+        const plugin = (Plugin, Api) => {
+            const {
+                DiscordModules
+            } = Api;
+    
+            const {
+                DiscordConstants
+            } = DiscordModules;
+    
+
+            return class clicker extends Plugin {
+                
+                onStart() {
+                    var keyArray = this.createExceptions()
+                    
+                    document.addEventListener('keydown', clicking);
+                    this.clicking = clicking;
+                    
+                        async function clicking(e) {
+                        var num = Math.floor(Math.random() * 3) + 1 // Generate a random number, used later to determine which click sound will be played
+                        function playSound(click) {
+                            backspace.pause()
+                            backspace.currentTime = 0
+                            click1.pause()
+                            click1.currentTime = 0
+                            click2.pause()
+                            click2.currentTime = 0
+                            click3.pause()
+                            click3.currentTime = 0
+                            click.play(click)
+                        }
+                        async function click() {
+
+                            if (keyArray.includes(e.code)) // Checks the array 'keyArray', and if the condition is met, do nothing
+                                return
+                            else if (e.code == 'Backspace') {
+                                playSound(backspace)
+                            }
+                            else if (num == 1) {
+                                playSound(click1)
+                            }
+                            else if (num == 2) {
+                                playSound(click2)
+                            }
+                            else if (num == 3) {
+                                playSound(click3)
+                            }
+                        }
+                        click()
+                    }
+                }
+                stop() {
+                    document.removeEventListener('keydown', this.clicking);
+                }
+                changeVolume() {
+                    click1.volume = (this.settings.volume / 100);
+                    click2.volume = (this.settings.volume / 100);
+                    click3.volume = (this.settings.volume / 100);
+                    backspace.volume = (this.settings.volume / 100);
+                }
+                createExceptions() {
+                    return this.settings.exceptions.split(",")
+                }
+                getSettingsPanel() {
+                    const panel = this.buildSettingsPanel();
+                    panel.addListener((id) => {
+                        if (id == "volume") {
+                            this.changeVolume()
+                        } else if (id == "exceptions") {
+                            this.createExceptions()
+                        }
+
+                    });
+                    return panel.getElement();
+                }
+            
+            }
+        }
+    
+    return plugin(Plugin, Api);
+})(global.ZeresPluginLibrary.buildPlugin(config));
+})();
 
 
 
