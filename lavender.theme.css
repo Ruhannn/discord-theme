@@ -18,18 +18,18 @@
 @import url("https://lavender-discord.github.io/Lavender/design/removed/removed.css");
 
 /*? ====== User Action Buttons (Mute, Deafen, Settings) ======*/
-@import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical.css");
+/*@import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical.css");
 /* Vertical allignment on the left side in server list */
 
-/* @import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical-connected.css"); /* */
+@import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical-connected.css"); /* */
 /* Vertical allignment on the left side in server list, buttons are connected in this one */
 
 @import url("https://lavender-discord.github.io/Lavender/design/status-indicators/radial.css"); 
 
 /*? ====== Server List allignment ======*/
-@import url("https://lavender-discord.github.io/Lavender/design/server-list/bottom.css"); /* */
+/*@import url("https://lavender-discord.github.io/Lavender/design/server-list/bottom.css"); /* */
 /* Puts the server list on the bottom */
 
-/* @import url("https://lavender-discord.github.io/Lavender/design/server-list/top.css"); /* */
+@import url("https://lavender-discord.github.io/Lavender/design/server-list/top.css"); /* */
 /* Puts the server list on the top */
 
