@@ -1,23 +1,7 @@
-/**
-
- * @source https://github.com/zuzumi-f/Discord-11/blob/main/base.css
-*/
-
-/*------------------------------------------------------------
-     
-------------------------------------------------------------*/
 @import url(https://zuzumi-f.github.io/Discord-11/base.css);
-
-
-/*--------------------------------------------------------------
-
-----------------------------------------------------------------*/
 
 @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css);
 
-/*--------------------------------------------------------------
-                           
----------------------------------------------------------------*/
 :root {
     --wallpaper-is: url(https://zuzumi-f.github.io/Discord-11/release/img19.jpg); 
     --blur-size: 24px; /* Amount of blur in pixels [24px is default] */
