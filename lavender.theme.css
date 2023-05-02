@@ -1,8 +1,5 @@
  
-
-
 @import url("https://lavender-discord.github.io/Lavender/src/source.css");
-
 
 @import url("https://lavender-discord.github.io/Lavender/skins/skin-loader/skin-loader.css");
 
@@ -18,41 +15,19 @@
 
 @import url("https://lavender-discord.github.io/Lavender/extensions/settings-iconsax.css");
 
-
-/* 
-!===============================================================================================================================
-!                                                    🖌️ Design
-!                                   Change the design of certain elements of lavender,
-!                           more will be added in the future, join the support server to stay updated
-!===============================================================================================================================
-*/
-
-
-/*? ====== Removed Stuff ======*/
 @import url("https://lavender-discord.github.io/Lavender/design/removed/removed.css");
-/* Removes few of the elements from discord, remove this import to get them back */
+
 
 
 /*? ====== User Action Buttons (Mute, Deafen, Settings) ======*/
-@import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical.css");
+/*@import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical.css");
 /* Vertical allignment on the left side in server list */
 
-/*@import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical-connected.css"); /* */
+@import url("https://lavender-discord.github.io/Lavender/design/user-actions/vertical-connected.css"); /* */
 /* Vertical allignment on the left side in server list, buttons are connected in this one */
 
 
-/*? ====== Status Indicators ======*/
-
 
 @import url("https://lavender-discord.github.io/Lavender/design/status-indicators/radial.css"); /* */
-/* Radial statuses for lavender
-
-
-/*? ====== Server List allignment ======*/
-@import url("https://lavender-discord.github.io/Lavender/design/server-list/bottom.css"); /* */
-/* Puts the server list on the bottom */
-
-/* @import url("https://lavender-discord.github.io/Lavender/design/server-list/top.css"); /* */
-/* Puts the server list on the top */
 
 
