@@ -8,7 +8,7 @@
   --background-accent-hue: 222;
   --background-accent-saturation: 100%;
   --background-accent-brightness: 50%;
-  --background-image: initial; /* url(https://site.com/foobar.png) | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image: initial;
   --background-image-position: center;
   --background-image-size: auto;
   --background-image-blur: 0px;
@@ -32,7 +32,7 @@
   --chat-text-brightness: 0;
   --home-icon: url('https://img.icons8.com/clouds/512/discord-logo.png');
   --favorites-icon: url('https://img.icons8.com/clouds/512/discord-logo.png');
-  --dock-blur: 0; /* Blur intensity of the dock. */
+  --dock-blur: 0; 
   --dock-border-radius: -0.59;
   --sidebar-width: 232px;
   --members-width: 206px;
