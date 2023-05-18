@@ -1,0 +1,17 @@
+
+@import url('https://maendisease.github.io/Outlook/Outlook.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+
+:root {
+  --home-image: url('https://cdn.discordapp.com/attachments/693674541989363802/1107391476540903434/106206682_p0.avif');
+  --accent-hue: 308;
+  --accent-saturation: 85%;
+  --accent-brightness: 40%;
+  --gradient-toggle: 1;
+  --gradient-hue-shift: 0.41;
+  --gradient-saturation: 50%;
+  --gradient-deg: 188deg;
+  --customFont: Segoe UI;
+}
+
+/* Any custom CSS below here */
