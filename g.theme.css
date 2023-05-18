@@ -1,15 +1,3 @@
-/**
- * @name g
- * @author Disease#5663
- * @version 1.0.11
- * @description macOS with barely any customization.
- * @source https://github.com/maenDisease/Solana
- * @invite BShu37e4jg
- * @website https://maendisease.github.io/
- * @authorId 678469587444170762
- * @BDEditor Solana
-*/
-
 @import url('https://maendisease.github.io/Solana/Solana.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
 
@@ -60,6 +48,5 @@
   --enable-blur: 0;
 }
 
-/* Any custom CSS below here */
 
 
