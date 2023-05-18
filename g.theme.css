@@ -1,0 +1,65 @@
+/**
+ * @name g
+ * @author Disease#5663
+ * @version 1.0.11
+ * @description macOS with barely any customization.
+ * @source https://github.com/maenDisease/Solana
+ * @invite BShu37e4jg
+ * @website https://maendisease.github.io/
+ * @authorId 678469587444170762
+ * @BDEditor Solana
+*/
+
+@import url('https://maendisease.github.io/Solana/Solana.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
+
+:root {
+  --accent-hue: 213;
+  --accent-saturation: 100%;
+  --accent-brightness: 50%;
+  --background-accent-hue: 0;
+  --background-accent-saturation: 0%;
+  --background-accent-brightness: 0%;
+  --background-image: url('https://github.com/Ruhannn/Ayaka-DIscord-theme/blob/3e7b3b97588b336f3980104691ebddf67601c57b/img/kamisato-ayaka-genshin-impact-2022-games-5k-6769x4102-7905.jpg?raw=true'); /* url(https://site.com/foobar.png) | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image-position: center;
+  --background-image-size: cover;
+  --background-image-blur: 1px;
+  --background-overlay-opacity: 80%;
+  --background-overlay-color-lightness: 0.1;
+  --background-hue-shift-strength: 100%;
+  --window-background-image: url('https://github.com/Ruhannn/Ayaka-DIscord-theme/blob/3e7b3b97588b336f3980104691ebddf67601c57b/img/kamisato-ayaka-genshin-impact-2022-games-5k-6769x4102-7905.jpg?raw=true');
+  --window-background-image-position: center;
+  --window-background-image-size: cover;
+  --window-background-image-attachment: fixed;
+  --window-opacity: 80%;
+  --window-blur: 1;
+  --window-friends-blur: 1;
+  --window-margin: 7;
+  --window-margin-left: 5;
+  --window-border-radius: 15px;
+  --window-background-lightness: 0;
+  --window-accent-tint-strength: 0%;
+  --chat-bubble: 0;
+  --text-link-hue: 212;
+  --chat-text-brightness: 1;
+  --home-icon: url('https://github.com/Ruhannn/Ayaka-DIscord-theme/blob/main/img/106582067_p0.jpg?raw=true');
+  --favorites-icon: url('https://img.icons8.com/clouds/512/discord-logo.png');
+  --dock-blur: 10; /* Blur intensity of the dock. */
+  --dock-border-radius: -0.26;
+  --sidebar-width: 232px;
+  --members-width: 205px;
+  --sidebar-text-brightness: 1;
+  --background-floating-blur: 20px;
+  --floating-background-lightness: 0;
+  --background-floating-opacity: 1;
+  --enable-floating-transparency: 0;
+  --custom-font-display: "";
+  --custom-font-regular: "";
+  --custom-font-primary: "";
+  --custom-font-code: "";
+  --enable-blur: 0;
+}
+
+/* Any custom CSS below here */
+
+
