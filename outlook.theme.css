@@ -6,11 +6,11 @@
   --home-image: url('https://github.com/Ruhannn/Ayaka-DIscord-theme/blob/main/img/106789005_p0.jpg?raw=true');
   --accent-hue: 200;
   --accent-saturation: 100%;
-  --accent-brightness: 56%;
+  --accent-brightness: 50%;
   --gradient-toggle: 1;
   --gradient-hue-shift: 3.6;
   --gradient-saturation: 100%;
-  --gradient-deg: 0deg;
+  --gradient-deg: 360deg;
   --customFont: Noto Sans Nag Mundari;
 }
 
