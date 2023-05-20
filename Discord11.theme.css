@@ -1,7 +1,5 @@
 @import url(https://zuzumi-f.github.io/Discord-11/base.css);
-
 @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css);
-
 :root {
     --blur-size: 24px;
     --opacity-thing: 0.6;
