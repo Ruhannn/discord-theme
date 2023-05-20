@@ -3,11 +3,9 @@
 @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css);
 
 :root {
-    --wallpaper-is: url(https://raw.githubusercontent.com/Ruhannn/Ayaka-DIscord-theme/main/img/unknown.png); 
     --blur-size: 24px;
     --opacity-thing: 0.6;
     --server-size: 48px;
-      
     --H: 199;
     --S: 100%;
     --L: 69%;
