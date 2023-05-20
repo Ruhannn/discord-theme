@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nag+Mundari:wght@100;300;400;500;700&display=swap');
 @import url('https://maendisease.github.io/Outlook/Outlook.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
-
 :root {
   --home-image: url('https://github.com/Ruhannn/Ayaka-DIscord-theme/blob/main/img/106789005_p0.jpg?raw=true');
   --accent-hue: 200;
@@ -13,5 +12,3 @@
   --gradient-deg: 360deg;
   --customFont: Noto Sans Nag Mundari;
 }
-
-
