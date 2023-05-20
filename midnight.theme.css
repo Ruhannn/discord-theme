@@ -1,24 +1,23 @@
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
 :root {
-
-	--link-color: hsl(190, 70%, 60%);
-	--accent-color: hsl(190, 60%, 50%);
-	--accent-background: hsl(190, 60%, 40%);
-	--accent-background-2: hsl(190, 60%, 30%);
-	--accent-background-3: hsl(190, 60%, 20%);
-	--mention-modifier: hsla(190, 60%, 50%, 0.1);
-	--mention-hover-modifier: hsla(190, 60%, 50%, 0.05);
-	--bright-text: hsl(220, 40%, 90%);
-	--header-text: hsl(220, 30%, 70%);
-	--primary-text: hsl(220, 15%, 60%);
-	--secondary-text: hsl(220, 15%, 40%);
-	--muted-text: hsl(220, 15%, 24%);
-	--muted-background-hover: hsl(220, 15%, 20%);
-	--muted-background-active: hsl(220, 15%, 16%);
-	--secondary-background: hsl(220, 15%, 13%);
-	--primary-background: hsl(220, 15%, 10%);
-	--hover-modifier: hsl(230, 20%, 40%, 0.1);
-	--active-modifier: hsl(220, 20%, 40%, 0.2);
-	--message-hover-modifier: hsl(220, 0%, 0%, 0.1);
-	--roundness: 16px;
+--link-color: hsl(190, 70%, 60%);
+--accent-color: hsl(190, 60%, 50%);
+--accent-background: hsl(190, 60%, 40%);
+--accent-background-2: hsl(190, 60%, 30%);
+--accent-background-3: hsl(190, 60%, 20%);
+--mention-modifier: hsla(190, 60%, 50%, 0.1);
+--mention-hover-modifier: hsla(190, 60%, 50%, 0.05);
+--bright-text: hsl(220, 40%, 90%);
+--header-text: hsl(220, 30%, 70%);
+--primary-text: hsl(220, 15%, 60%);
+--secondary-text: hsl(220, 15%, 40%);
+--muted-text: hsl(220, 15%, 24%);
+--muted-background-hover: hsl(220, 15%, 20%);
+--muted-background-active: hsl(220, 15%, 16%);
+--secondary-background: hsl(220, 15%, 13%);
+--primary-background: hsl(220, 15%, 10%);
+--hover-modifier: hsl(230, 20%, 40%, 0.1);
+--active-modifier: hsl(220, 20%, 40%, 0.2);
+--message-hover-modifier: hsl(220, 0%, 0%, 0.1);
+--roundness: 16px;
 }
