@@ -1,6 +1,5 @@
 @import url("https://dracula.github.io/betterdiscord/base.css");
-@import url('https://discord-extensions.github.io/macos-titlebar/src/source.css')
- @import url('https://discord-extensions.github.io/bubble-bar/src/source.css');
+@import url('https://discord-extensions.github.io/bubble-bar/src/source.css');
 :root {
  --channeltextarea-rounding: 25px;
 --channeltextarea-background: var(--background-secondary-alt);
