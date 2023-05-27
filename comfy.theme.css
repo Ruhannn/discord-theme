@@ -1,4 +1,4 @@
--@import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
+@import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
 @import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
 :root {
 --disable-animations: 2s channel-unread infinite;
