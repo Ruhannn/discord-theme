@@ -3,7 +3,6 @@
 
 
 
-[Simplify](https://github.com/Dyzean/Simplify/blob/main/simplify.theme.css) is made by [Dyzean ](https://github.com/Dyzean)
 
 [Lavender](https://github.com/Lavender-Discord/Lavender/blob/main/dev.css) is made by [Obscure](https://github.com/Obscure-Git)
 
