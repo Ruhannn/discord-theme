@@ -12,3 +12,6 @@
   --gradient-deg: 360deg;
   --customFont: Noto Sans Nag Mundari;
 }
+.toolbar-3_r2xA .iconWrapper-2awDjA[aria-label] {
+    display: flex !important;
+}
