@@ -79,6 +79,11 @@ font-family: 'Balsamiq Sans', cursive;
 .vc-bf-folder-sidebar + .base-2jDfDU .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW {
   left: 400px;
 }
+.sprite-2lxwfc {
+    filter: none !important;
+    background: url('https://raw.githack.com/Pukimaa/Comfy/master/assets/emoji.png') center/contain no-repeat !important;
+}
+
 /*uu*/
 /*chat box*/
 .channelTextArea-1FufC0 .buttons-uaqb-5 > * { position: relative; top: -44px;}
