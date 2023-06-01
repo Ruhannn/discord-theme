@@ -65,26 +65,23 @@ font-family: 'Balsamiq Sans', cursive;
 --header-secondary: #b1b5b9;
 --text-normal: #8e9297;
 }
-.appMount-2yBXZl .app-3xd6d0 { opacity: 0; transition: 1s;}
-.appMount-2yBXZl:hover .app-3xd6d0 { opacity: 1; transition: 0.45s;}
+.appMount-2yBXZl .app-3xd6d0 { opacity: .8; transition: 0.50s;}
+.appMount-2yBXZl:hover .app-3xd6d0 { opacity: 1; transition: 0.35s;}
 .appMount-2yBXZl:after {
     content: "";
     position: fixed;
     background: url('https://raw.githubusercontent.com/Ruhannn/discord-theme/main/output-onlinegiftools.gif') center/8% no-repeat;
     width: 100%; height: 100%;
-    opacity: 1; backdrop-filter: blur(2px);
+    opacity: 1; backdrop-filter: blur(3px);
 }
 .appMount-2yBXZl:hover:after { opacity: 0; pointer-events: none;}
-
 /*uu*/
 .sprite-2iCowe {
     filter: none !important;
     background: url('https://raw.githack.com/Pukimaa/Comfy/master/assets/emoji.png') center/contain no-repeat !important;
 }
 /*uu*/
-
 /*chat box*/
-
 .channelTextArea-1FufC0 .buttons-uaqb-5 > * { position: relative; top: -44px;}
 .channelTextArea-1FufC0:hover .buttons-uaqb-5 > * { top: 0;}
 
@@ -92,9 +89,7 @@ font-family: 'Balsamiq Sans', cursive;
 .channelTextArea-1FufC0 .buttons-uaqb-5 > :nth-child(2) { transition: top 250ms;}
 .channelTextArea-1FufC0 .buttons-uaqb-5 > :nth-child(3) { transition: top 200ms;}
 .channelTextArea-1FufC0 .buttons-uaqb-5 > :last-child { transition: top 150ms;}
-
 /*normal buttons*/
-/* Toolbar to original position */
 :root section.panels-3wFtMD > .container-YkUktl { height: 52px;}
 
 :root section.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF {
