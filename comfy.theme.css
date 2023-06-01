@@ -65,7 +65,7 @@ font-family: 'Balsamiq Sans', cursive;
 --header-secondary: #b1b5b9;
 --text-normal: #8e9297;
 }
-.appMount-2yBXZl .app-3xd6d0 { opacity: 0; transition: 2s;}
+.appMount-2yBXZl .app-3xd6d0 { opacity: 0; transition: 1.4s;}
 .appMount-2yBXZl:hover .app-3xd6d0 { opacity: 1; transition: 0.30s;}
 .appMount-2yBXZl:after {
     content: "";
@@ -81,7 +81,7 @@ font-family: 'Balsamiq Sans', cursive;
 }
 .sprite-2lxwfc {
     filter: none !important;
-    background: url('https://raw.githack.com/Pukimaa/Comfy/master/assets/emoji.png') center/contain no-repeat !important;
+    background: url('https://cdn.discordapp.com/emojis/1010211267451031552.gif?size=96') center/contain no-repeat !important;
 }
 
 /*uu*/
