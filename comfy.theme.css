@@ -76,9 +76,8 @@ font-family: 'Balsamiq Sans', cursive;
 }
 .appMount-2yBXZl:hover:after { opacity: 0; pointer-events: none;}
 /*uu*/
-.sprite-2iCowe {
-    filter: none !important;
-    background: url('https://raw.githack.com/Pukimaa/Comfy/master/assets/emoji.png') center/contain no-repeat !important;
+.vc-bf-folder-sidebar + .base-2jDfDU .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW {
+  left: 400px;
 }
 /*uu*/
 /*chat box*/
