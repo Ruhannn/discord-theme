@@ -65,14 +65,14 @@ font-family: 'Balsamiq Sans', cursive;
 --header-secondary: #b1b5b9;
 --text-normal: #8e9297;
 }
-.appMount-2yBXZl .app-3xd6d0 { opacity: .8; transition: 0.50s;}
-.appMount-2yBXZl:hover .app-3xd6d0 { opacity: 1; transition: 0.35s;}
+.appMount-2yBXZl .app-3xd6d0 { opacity: 0; transition: 2s;}
+.appMount-2yBXZl:hover .app-3xd6d0 { opacity: 1; transition: 0.30s;}
 .appMount-2yBXZl:after {
     content: "";
     position: fixed;
     background: url('https://live.staticflickr.com/65535/52942368942_60bc551e26_o.gif') center/20% no-repeat;
     width: 100%; height: 100%;
-    opacity: 1; backdrop-filter: blur(3px);
+    opacity: 1;backdrop-filter: blur(3px);
 }
 .appMount-2yBXZl:hover:after { opacity: 0; pointer-events: none;}
 /*uu*/
