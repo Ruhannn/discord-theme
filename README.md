@@ -18,7 +18,6 @@ and the theme is made by [Disease](https://github.com/maenDisease)
 
 - [Comfy](https://github.com/Comfy-Themes/Discord) is made by [Nyria](https://github.com/NYRI4)
 
- - [Tokyo Night](https://github.com/Dyzean/Tokyo-Night) is made by [Dyzean](https://github.com/Dyzean)
 
 
 
