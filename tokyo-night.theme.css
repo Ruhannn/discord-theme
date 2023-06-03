@@ -3,9 +3,22 @@
 @import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://dyzean.github.io/Tokyo-Night/addons/vscode-user-area.css");
 @import url("https://dyzean.github.io/Tokyo-Night/addons/syntax-highlight.css");
-@import url("https://dyzean.github.io/Tokyo-Night/addons/mac-titlebar.css");
 @import url("https://dyzean.github.io/Tokyo-Night/addons/compact-mode.css");
 @import url("https://dyzean.github.io/Tokyo-Night/addons/monospace-fonts.css");
+@import url(//dablulite.github.io/css-snippets/MacosTitlebar/import.css);
+:root {
+ --mactitlebar-left-margin: 5px;
+ --mactitlebar-top-margin: 10px;
+ --mactitlebar-button-width: 20px;
+ --mactitlebar-button-height: 20px;
+ --mactitlebar-button-border-radius: 50px;
+ --mactitlebar-close-btn-back: #f25056;
+ --mactitlebar-min-btn-back: #fac536;
+ --mactitlebar-max-btn-back: #39ea49;
+ --macbuttons-serverlist-inner-top-margin: 32p 
+ --macbuttons-serverlist-outer-top-margin: 0;
+ --macbuttons-serverlist-outer-height: 100%;
+}
 .theme-dark {
  --header-primary: var(--text-normal);
  --header-secondary: var(--text-muted);
@@ -41,10 +54,7 @@
  --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
  --channeltextarea-background: var(--background-secondary);
  --channeltextarea-background-hover: var(--background-tertiary);
-   --avatar-roundess: 25px;
- --close-button-color: #e92a2ade;
- --maximize-button-color: #f7bc1bde;
- --minimize-button-color: #12db33de;
+ --avatar-roundess: 25px;
 }
 .theme-light {
  --header-primary: var(--text-normal);
@@ -85,9 +95,6 @@
  --channeltextarea-background: var(--background-secondary);
  --channeltextarea-background-hover: var(--background-tertiary);
  --avatar-roundess: 25px;
- --close-button-color: #e92a2ade;
- --maximize-button-color: #f7bc1bde;
- --minimize-button-color: #12db33de;
  --button-position: row;
 
 }
