@@ -14,12 +14,12 @@
   --members-width: 280px; /* Width of the members list. | Default: 280px */
   --server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
   --chat-avatar-size: 32px; /* Size of the chat avatars. | Default: 32px */
-  --rs-small-spacing: 0px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 0px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 2px; /* Gap between avatar and status for User popout | MUST end in px */
   --rs-large-spacing: 0px; /* Gap between avatar and status for User profiles | MUST end in px */
-  --rs-small-width: 0px; /* Ring width | Default: 1.5px */
-  --rs-medium-width: 0px;
-  --rs-large-width: 0px;
+  --rs-small-width: 2px; /* Ring width | Default: 1.5px */
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
   --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
   --rs-online-color: #43b581; /* Colour for online status */
   --rs-idle-color: #faa61a; /* Colour for idle status */
