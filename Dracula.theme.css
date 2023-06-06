@@ -1,5 +1,19 @@
 @import url("https://dracula.github.io/betterdiscord/base.css");
 @import url('https://discord-extensions.github.io/bubble-bar/src/source.css');
+@import url(//dablulite.github.io/css-snippets/MacosTitlebar/import.css);
+:root {
+    --mactitlebar-left-margin: 5px;
+    --mactitlebar-top-margin: 10px;
+    --mactitlebar-button-width: 20px;
+    --mactitlebar-button-height: 20px;
+    --mactitlebar-button-border-radius: 50px;
+    --mactitlebar-close-btn-back: #f25056;
+    --mactitlebar-min-btn-back: #fac536;
+    --mactitlebar-max-btn-back: #39ea49;
+    --macbuttons-serverlist-inner-top-margin: 32px;
+    --macbuttons-serverlist-outer-top-margin: 0;
+    --macbuttons-serverlist-outer-height: 100%;
+}
 :root {
  --channeltextarea-rounding: 25px;
 --channeltextarea-background: var(--background-secondary-alt);
@@ -14,3 +28,10 @@
 --channeltextarea-sendbutton-hover: var(--brand-experiment-460);
 --channeltextarea-sendbutton-active: var(--brand-experiment-530);
 }
+.channelTextArea-1FufC0 .buttons-uaqb-5 > * { position: relative; top: -44px;}
+.channelTextArea-1FufC0:hover .buttons-uaqb-5 > * { top: 0;}
+
+.channelTextArea-1FufC0 .buttons-uaqb-5 > :first-child { transition: top 300ms;}
+.channelTextArea-1FufC0 .buttons-uaqb-5 > :nth-child(2) { transition: top 250ms;}
+.channelTextArea-1FufC0 .buttons-uaqb-5 > :nth-child(3) { transition: top 200ms;}
+.channelTextArea-1FufC0 .buttons-uaqb-5 > :last-child { transition: top 150ms;}
