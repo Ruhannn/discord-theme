@@ -4,7 +4,7 @@
 @import url("https://dyzean.github.io/Tokyo-Night/addons/vscode-user-area.css");
 @import url("https://dyzean.github.io/Tokyo-Night/addons/syntax-highlight.css");
 @import url("https://dyzean.github.io/Tokyo-Night/addons/compact-mode.css");
-@import url("https://dyzean.github.io/Tokyo-Night/addons/monospace-fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 @import url("https://dyzean.github.io/Tokyo-Night/addons/mac-titlebar.css");
 .theme-dark {
  --header-primary: var(--text-normal);
@@ -89,5 +89,48 @@
  --close-button-color: #e92a2ade;
  --maximize-button-color: #f7bc1bde;
  --minimize-button-color: #12db33de;
+:root {
+  --font-primary: 'Fira Code', monospace; /* Step 3: Use the desired font-family name */
+  --font-code: 'Fira Code', monospace; /* You can modify this if needed */
+  --font-display: var(--font-primary);
+}
+.bd-settings-title,
+.customScroller-m1-jZn div h1,
+.contentColumnDefault-3eyv5o .marginBottom4-1fdMNe h1,
+.sectionTitle-3j2YI1 h1,
+.alignCenter-14kD11 h1 {
+  font-family: var(--font-primary); /* Step 4: Use the custom font */
+  font-style: italic;
+  font-weight: 600;
+}
+.header-3OsQeK .name-3Uvkvr {
+  font-family: var(--font-primary); /* Step 4: Use the custom font */
+  font-style: italic;
+  font-weight: 500;
+}
+.name-3BUDLf.container-q97qHp .overflow-1wOqNV {
+  font-family: var(--font-primary); /* Step 4: Use the custom font */
+  font-weight: 600;
+}
+.bot-XvK26D, .username-3JLfHz,
+.nameTag-2Nlmsy .discriminator-1bqsd3,
+.headerText-1-WmDq .nickname-t08Mck,
+.headerTagUsernameNoNickname-1TjuLc,
+.headerTagDiscriminatorNoNickname-dfcvHa {
+  font-family: var(--font-primary); /* Step 4: Use the custom font */
+  font-style: italic;
+  font-weight: 500;
+}
+.anchor-1MIwyf {
+  font-family: var(--font-primary); /* Step 4: Use the custom font */
+  font-style: italic;
+}
+.compact-2Nkcau .timestamp-p1Df1m,
+.cozy-VmLDNB .timestamp-p1Df1m {
+  font-family: var(--font-primary); /* Step 4: Use the custom font */
+  font-style: italic;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
 
 }
