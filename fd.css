@@ -1,0 +1,421 @@
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
+:root {
+
+   --link-color: hsl(190, 70%, 60%);
+
+   --accent-color: hsl(190, 60%, 50%);
+
+   --accent-background: hsl(190, 60%, 40%);
+ 
+   --accent-background-2: hsl(190, 60%, 30%);
+
+   --accent-background-3: hsl(190, 60%, 20%);
+
+   --mention-modifier: hsla(14, 82%, 59%, 0.3);
+
+   --mention-hover-modifier: hsla(59, 100%, 80%, 0.3);
+   
+   --bright-text: hsl(0, 0%, 100%);
+ 
+   --header-text: hsl(219, 100%, 92%);
+
+   --primary-text: hsl(200, 17%, 90%);
+
+   --secondary-text: hsl(219, 13%, 59%);
+
+   --muted-text: hsl(214, 8%, 35%);
+
+   --muted-background-hover: hsl(220, 15%, 20%);
+
+   --muted-background-active: hsl(220, 15%, 16%);
+
+   --secondary-background: hsla(222, 15%, 13%, 0.911);
+
+   --primary-background: hsla(223, 14%, 10%, 0.603);
+
+   --hover-modifier: hsl(230, 20%, 40%, 0.1);
+
+   --active-modifier: hsl(220, 20%, 40%, 0.2);
+
+   --message-hover-modifier: hsla(0, 0%, 100%, 0.1);
+   --roundness: 16px;
+}
+
+.theme-dark {
+   --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 100%;
+   --indicator-selected: 206, calc(var(--saturation-factor, 1) * 70%), 40%;
+   --indicator-connected: 139, calc(var(--saturation-factor, 1) * 86%), 65%;
+   --indicator-hovered: hsla(var(--indicator-unread), 0.075);
+   --text-active: white;
+}
+
+
+:root {
+   --indicator-border-size: 6px;
+   --indicator-border-style: solid;
+   --indicator-rounding: 0;
+
+   --item-selected-icon:white;
+   --item-selected-indicator: hsl(var(--indicator-selected));
+   --item-selected-background: hsla(var(--indicator-selected), 0.5);
+   --item-selected-background-hover: rgba(183,88,199,0.7);
+
+   --item-connected-icon: hsl(var(--indicator-connected));
+   --item-connected-indicator: hsl(var(--indicator-connected));
+   --item-connected-background: hsl(var(--indicator-connected), 0.1);
+   --item-connected-background-hover: hsl(var(--indicator-connected), 0.2);
+
+   --item-unread-icon: hsl(var(--indicator-unread));
+   --item-unread-indicator: hsl(var(--indicator-unread), 0.5);
+   --item-unread-background: hsl(var(--indicator-unread), 0.025);
+   --item-unread-background-hover: hsl(var(--indicator-unread), 0.1);
+}
+
+
+@keyframes rainbowText {
+   from {
+     -webkit-filter: hue-rotate(0deg);
+   }
+   to {
+     -webkit-filter: hue-rotate(360deg);
+   }
+ }
+ 
+
+#app-mount > div.typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.withBackgroundOverride-gzmZco > div.wordmarkWindows-2dq6rw.wordmark-2u86JB::after
+{
+   content:'Go die why are u always here' !important;
+   background: -webkit-linear-gradient(45deg, #dc68ee 0%, hsl(202, 100%, 50%) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   color: #1727b9;
+   animation: rainbowText 3s infinite linear;
+}
+
+
+div.titleWrapper-24Kyzc, div.topic-11NuQZ.expandable-3CaLeS > span, div.buttons-uaqb-5 *, div.contents-3NembX.attachButtonInner-2mwer8 *{
+   background: -webkit-linear-gradient(45deg, #dc68ee 0%, hsl(202, 100%, 50%) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   color: #001aff;
+   animation: rainbowText 8s infinite linear;
+}
+
+
+
+
+
+
+
+:root {
+   --tertiaryb4:#173851;
+   --background-tertiary: rgba(23, 56,81,0.5);
+   --background-primary: rgb(54, 57, 63, 0);
+ }
+
+ .sidebar-1tnWFu .unreadBar-elBRZx {
+   width: 102px;
+   margin: auto;
+   text-transform: capitalize;
+   color: white;
+   background-color: var(--background-tertiary);
+}
+
+.sidebar-1tnWFu .unreadBar-elBRZx:not(.mention-3XBnnZ) span:before {
+   margin: -2px 8px 0px 6px;
+   float: left;
+}
+
+.sidebar-1tnWFu
+   .unreadTop-1DJtGv
+   .unreadBar-elBRZx:not(.mention-3XBnnZ)
+   span:before {
+   content: url("https://i.imgur.com/xN4NFmi.png");
+}
+
+.sidebar-1tnWFu
+   .unreadBottom-3Ojk6R
+   .unreadBar-elBRZx:not(.mention-3XBnnZ)
+   span:before {
+   content: url("https://i.imgur.com/H9iG4mp.png");
+}
+
+.sidebar-1tnWFu .unreadBar-elBRZx.mention-3XBnnZ span:before {
+   content: " ";
+   font-size: 0px;
+   background-color: var(--status-danger);
+   float: left;
+   border-radius: 50%;
+   height: 8px;
+   width: 8px;
+   margin: 4px 3px auto auto;
+}
+ 
+ [data-list-id="guildsnav"] {
+   background: var(--tertiaryb4)
+ }
+
+ .container-2nx-BQ:not(.checked-25WXMf) {
+   background-color: #f04747 !important;
+}
+
+.container-2nx-BQ:not(.checked-25WXMf) path {
+   fill: #f04747 !important;
+}
+
+/* fixes/ensures enabled input is green*/
+.container-2nx-BQ.checked-25WXMf {
+   background-color: #43b581 !important;
+}
+
+.container-2nx-BQ.checked-25WXMf path {
+   fill: #43b581 !important;
+}
+
+
+
+
+
+ 
+/*** Collapsed members list snippet but now with a hacky way of showing the members count. ***/
+.content-yTz4x3:before { /* Fix topbar shadow */
+ z-index: 12;
+}
+[class*="membersWrap-"] {
+ margin-right: -175px;
+ transition: transform .35s;
+ z-index: 10;
+}
+[class*="membersWrap-"]:hover,
+[class*="membersWrap-"]:focus,
+[class*="membersWrap-"]:focus-within {
+ transform: translatex(-175px);
+}
+[class*="membersWrap-"] > [class*="members-"] {
+ background-color: var(--background-primary);
+ transition: background-color .2s;
+ max-width: 200vw;
+}
+[class*="membersWrap-"] > [class*="members-"] > div {
+ background: none !important;
+}
+
+[class*="membersWrap-"]:hover > [class*="members-"],
+[class*="membersWrap-"]:focus-within > [class*="members-"] {
+ background-color: var(--background-secondary);
+}
+[class*="membersWrap-"] [class*="membersGroup-"] {
+ margin-right: auto;
+ width: 55px;
+ text-overflow: clip;
+ direction: rtl;
+ word-spacing: 1000px;
+}
+[class*="membersWrap-"]:hover [class*="membersGroup-"],
+[class*="membersWrap-"]:focus-within [class*="membersGroup-"] {
+ width: 100%;
+ margin: 0;
+ direction: ltr;
+ word-spacing: unset;
+ text-overflow: ellipsis;
+}
+[class*="membersWrap-"] [class*="member-"] [class*="content-"] {
+ filter: opacity(0);
+ transition: filter .2s;
+}
+[class*="membersWrap-"]:hover [class*="membersGroup-"],
+[class*="membersWrap-"]:focus-within [class*="membersGroup-"],
+[class*="membersWrap-"]:hover [class*="member-"] [class*="content-"],
+[class*="membersWrap-"]:focus-within [class*="member-"] [class*="content-"] {
+ filter: opacity(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.drawerSizingWrapper-1txdWG {
+   height:80vh;
+   bottom:0px;
+   right:5px;
+   width:600px; /* 498px-599px = 2 ROWS || 600px-799px = 3 ROWS || 800px-999px = 4 ROWS || 1000px< = get fucking help */
+}
+
+----------------------------------------------------------------------- */
+ 
+ .auto-2TJ1RH::-webkit-scrollbar-thumb {
+     background-color:white;
+ }
+ .thin-RnSY0a::-webkit-scrollbar-thumb {
+     border: none;
+     border-radius:12px;
+     background-color: white;
+ }
+
+
+
+ @font-face {
+     font-family: 'Comfortaa Light';
+     font-family: 'Comfortaa Regular';
+     font-family: 'Comfortaa Medium';
+     font-family: 'Comfortaa Semibold';
+     font-family: 'Comfortaa Bold';
+      src: url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+     font-style: normal;
+     font-weight: 300,400,500,600,700;
+ }
+
+ 
+
+ 
+ :root {
+     --line-spacing: var(--message-line-spacing);
+ }
+
+
+ ::-webkit-input-placeholder, body, button, input, select, textarea {
+     font-family: 'Comfortaa Light', 'Comfortaa Regular', 'Comfortaa SemiBold' ,'Comfortaa Medium', 'Comfortaa-Bold', sans-serif !important;
+     word-spacing: var(--word-spacing, initial);
+     letter-spacing: var(--letter-spacing, initial);
+ }
+ 
+
+ 
+ [class*="messageContent-" i] {
+     line-height: var(--message-line-spacing, initial) !important;
+ }
+ 
+
+ 
+ [class*="group-spacing" i] [class*="timestamp"],
+ [class*="messageContent-" i] time {
+     font-size: .9rem;
+ }
+ 
+ :root {
+     --word-spacing: 0.7px;
+     --letter-spacing: 0.15px;
+     --message-line-spacing: 1.5;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
