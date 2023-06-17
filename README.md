@@ -4,7 +4,6 @@
 
 
 
-- [Lavender](https://github.com/Lavender-Discord/Lavender/blob/main/dev.css) is made by [Obscure](https://github.com/Obscure-Git)
 
 - [Discord-11](https://github.com/zuzumi-f/Discord-11/blob/main/Discord11.theme.css) is made by [zuzumi](https://github.com/zuzumi-f)
 
