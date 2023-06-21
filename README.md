@@ -21,9 +21,6 @@ and the theme is made by [Disease](https://github.com/maenDisease)
 
 
 
-
-
-
 ###### With full credit given to them.
 Hi there! Just wanted to make sure I shout out them for their great work. They really deserve some recognition for all they have done. Thank you, guys!
 
