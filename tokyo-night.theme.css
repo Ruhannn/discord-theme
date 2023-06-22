@@ -133,3 +133,167 @@
  --maximize-button-color: #f7bc1bde;
  --minimize-button-color: #12db33de;
 }
+.profileColors-2AgAV4 {
+  position: relative;
+}
+
+.theme-dark .profileColors-2AgAV4 {
+  --profile-body-background-color: rgba(0, 0, 0, 0.45);
+}
+
+.theme-light .profileColors-2AgAV4 {
+  --profile-body-background-color: rgba(255, 255, 255, 0.65);
+}
+
+/* Avatar */
+.userProfileOuterUnthemed-11rPfA :where(
+  .avatarWrapper-eenWra,
+  .avatar-3QF_VA
+) {
+  background: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
+}
+
+.userProfileOuterUnthemed-11rPfA :where(
+  .avatarHoverTarget-1zzfRL,
+  .avatarHint-k7pYop,
+  .avatar-3QF_VA
+) {
+  padding: 6px;
+}
+
+.profileColors-2AgAV4 .wrapper-3Un6-K circle,
+.profileColors-2AgAV4 .wrapper-3Un6-K rect[style] {
+  fill: none;
+}
+
+/* Banner */
+.userProfileOuterUnthemed-11rPfA .bannerSVGWrapper-2CLfzN {
+  overflow: visible;
+  contain:none;
+}
+
+.userProfileOuterUnthemed-11rPfA .bannerSVGWrapper-2CLfzN foreignObject {
+  mask: none;
+}
+
+.banner-1YaD3N:not([style^="background-image"]),
+.banner-3D8GgT:not([style*="background-image"]) {
+  height: 100vh;
+}
+
+/* Body */
+.overlayBackground-2aa7wt {
+  margin: 28px 8px 8px;
+  z-index: 1;
+}
+
+.profileColors-2AgAV4 .overlayBackground-2aa7wt {
+  box-shadow: var(--elevation-medium);
+}
+
+/* Badges */
+.userProfileOuterUnthemed-11rPfA .profileBadges-2pItdR {
+  z-index: 1;
+}
+
+.profileBadges-2pItdR:not(.containerWithContent-2Yws8V) {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.profileColors-2AgAV4 .containerWithContent-2Yws8V {
+  box-shadow: var(--elevation-medium);
+}
+
+.profileColors-2AgAV4 .relationshipButtons-3ByBpj button {
+  box-shadow: var(--elevation-medium);
+}
+
+.profileColors-2AgAV4 .messageInputContainer-24qqTx {
+  border: none;
+}
+
+/* Settings */
+.theme-dark .accountProfileCard-lbN7n- {
+  --profile-body-background-color: rgba(0, 0, 0, 0.45);
+}
+
+.theme-light .accountProfileCard-lbN7n- {
+  --profile-body-background-color: rgba(255, 255, 255, 0.65);
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) {
+  background: none;
+  box-shadow: var(--elevation-medium);
+}
+
+/* banner */
+.accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN:not(:has([style*="/banners/"])) {
+  z-index: 0;
+  position: absolute;
+  contain: none;
+  overflow: visible;
+}
+
+.accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN:not(:has([style*="/banners/"])) foreignObject {
+  mask: none;
+}
+
+/* avatar */
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .avatar-3mTjvZ {
+  top: 16px;
+  left: 16px;
+  padding: 6px;
+  background-color: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
+}
+
+/* body */
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .userInfo-regn9W {
+  height: 116px;
+  align-items: flex-end;
+  position: relative;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .profileCardUsernameRow-1bb6fi,
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .containerWithContent-2Yws8V {
+  background-color: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
+  border-radius: 8px;
+  width: fit-content;
+  padding: 4px;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .userTag-2qPxEZ {
+  margin-bottom: 0;
+  padding-left: 4px;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .profileCardUsernameRow-1bb6fi .overflowMenuButton-1I3Jz1 {
+  height: 24px;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .containerWithContent-2Yws8V {
+  margin-top: 4px;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .background-3d_SjE {
+  box-shadow: var(--elevation-medium);
+  position: relative;
+}
+
+.accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .fieldList-in8WkP {
+  background: none;
+}
+
+#app-mount .accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .background-3d_SjE {
+  background-color: var(--profile-body-background-color);
+}
+
+.userProfileOuterUnthemed-11rPfA .imageUploaderIconWrapper-14sdnH {
+  background: var(--profile-body-background-color);
+  box-shadow: var(--elevation-medium);
+  padding: 6px;
+  border-radius: 50%;
+}
