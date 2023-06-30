@@ -5,13 +5,8 @@
 
 
 
-- [Discord-11](https://github.com/zuzumi-f/Discord-11/blob/main/Discord11.theme.css) is made by [zuzumi](https://github.com/zuzumi-f)
 
-- I customize [outlook](https://github.com/Ruhannn/discord-theme/blob/main/outlook.theme.css) from [bdeditor](https://bdeditor.dev/theme/solana)
-and the theme is made by [Disease](https://github.com/maenDisease)
 
-- [Dracula](https://github.com/dracula/betterdiscord) is made by 
-[Dracula Theme](https://github.com/dracula)
 
 - [Comfy](https://github.com/Comfy-Themes/Discord) is made by [Nyria](https://github.com/NYRI4)
 
