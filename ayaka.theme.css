@@ -1,14 +1,9 @@
 /**
  * @name ayaka
- * @author Gibbu#1211
- * @version 2.0.0
- * @description Display your picture of choice with adjustable blur and brightness.
- * @source https://github.com/DiscordStyles/FrostedGlass
- * @invite ZHthyCw
- * @donate https://paypal.me/IanRGibson
- * @website https://gibbu.me
+ * @author KamiRu#4151
+ * @version 2.6.9
+ * @description Ayayayayayayay is the best
  * @authorId 174868361040232448
- * @BDEditor Frosted Glass
 */
 @import url('https://raw.githubusercontent.com/Ruhannn/discord-theme/main/css/popout.css');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;300;400;500;700&display=swap');
@@ -29,13 +24,13 @@
   --overlay-image-blur: 0.5px;
   --overlay-image-size: cover;
   --overlay-image-position: top center;
-  --home-button-image: url('https://upload-os-bbs.hoyolab.com/upload/2022/03/21/8040671/91fd3a40b43948c89bc67bd9f20ea90e_362529073123980814.gif');
+  --home-button-image: url('https://cdn.discordapp.com/attachments/1065689957525630997/1124687906984968322/cakD9P8.gif');
   --home-button-size: cover;
   --home-button-position: Bottom center;
   --serverlist-brightness: 0.65;
   --left-brightness: 0.65;
   --middle-brightness: 0.65;
-  --right-brightness: 0;
+  --right-brightness: 0.2;
   --overlay-brightness: 0.65;
   --gradient-primary: 33,150,243;
   --gradient-secondary: 63,81,181;
@@ -48,4 +43,48 @@
   --window-padding: 0.5px;
   --window-roundness: 0px;
   --update-notice-1: none;
+}
+.appMount-2yBXZl .app-3xd6d0 {
+    opacity: 0;
+    transition: opacity 1.4s ease-in-out;
+}
+
+.appMount-2yBXZl:hover .app-3xd6d0 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.appMount-2yBXZl:after {
+    content: "";
+    position: fixed;
+    background-color: #FCFAF9;
+    background-image: url('https://media.tenor.com/IlJZmC2PwAgAAAAC/bongo-cat-ayaka-genshin.gif');
+    background-position: center;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    backdrop-filter: blur(3px);
+    transition: opacity 1.0s ease-in-out, 0.5s;
+}
+
+.appMount-2yBXZl:hover:after {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+[class^="panels-3wFtMD"]::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    left: 200px;
+    margin-top: -40px;
+    position: absolute;
+    background-image: url('https://cdn.discordapp.com/emojis/1009411562571837450.gif?size=40&quality=lossless');
+
+}.sprite-2lxwfc {
+    filter: none !important;
+   size: 20px;
+    background: url('https://media.tenor.com/MMH9J6lhSNsAAAAi/ayaka-genshin.gif') center/contain no-repeat !important;
 }
