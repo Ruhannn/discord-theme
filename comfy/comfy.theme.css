@@ -60,17 +60,28 @@ font-family: 'Balsamiq Sans', cursive;
   --input-background: #1e2233;
 }
 .theme-light {
-  --background-primary: #23283d;
-  --background-secondary: #1e2233;
-  --background-secondary-alt: #191f2e;
-  --background-tertiary: #101320;
-  --background-accent: #7289da;
-  --background-modifier-hover: #262b41;
-  --background-modifier-active: #262b41;
-  --modal-background: var(--background-primary);
-  --header-primary: #fff;
-  --header-secondary: #b1b5b9;
-  --text-normal: #8e9297;
+  --background-primary: #d5d6db;
+  --background-secondary: #cecfd4;
+  --background-secondary-alt: #b6b7bd;
+  --background-tertiary: #c5c6cc;
+  --background-accent: #9ca3bb;
+  --modal-background: #d5d6db;
+  --background-mobile-primary: #d5d6db;
+  --background-mobile-secondary: #cecfd4;
+  --channeltextarea-background: #b6b7bd;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #2c2a2a25;
+  --background-modifier-active: #5a525229;
+  --background-modifier-selected: #555e693d;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #c2c2c9;
+  --deprecated-quickswitcher-input-background: #c2c2c9;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #141925;
+  --scrollbar-auto-track: #b6b7bd;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #c2c2c9;
+  --input-background: #cecfd4;
 }
 .appMount-2yBXZl .app-3xd6d0 { opacity: 0; transition: 1.4s;}
 .appMount-2yBXZl:hover .app-3xd6d0 { opacity: 1; transition: 0.30s;}
