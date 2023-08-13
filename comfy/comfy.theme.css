@@ -3,10 +3,8 @@
 @version 2.6.9
 * @description Stay comfy while talking to your friends
 */
-@import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
+@import "https://raw.githubusercontent.com/Ruhannn/discord-theme/main/comfy/main.css";
 @import url("https://raw.githubusercontent.com/NYRI4/Discolored/master/main.css");
-@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
-@import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css";
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 ::-webkit-input-placeholder, body, button, input, select, textarea {
 font-family: 'Balsamiq Sans', cursive;
