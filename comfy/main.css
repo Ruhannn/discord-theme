@@ -2297,6 +2297,21 @@
 :root #permissions-modal-wrapper .perm-side {
   background: var(--background-secondary) !important;
 }
+[src^="https://cdn.discordapp.com/avatars/819191621676695563/"] {
+    content: url("https://media.discordapp.net/attachments/1065689957525630997/1131763330328047706/aZKs1Pm.gif");
+}
+/* custom bage */
+.userPopoutInner-nv9Y92:has([src*="819191621676695563"]) .profileBadges-2pItdR::after {
+  content: "";
+  display: block;
+  height: 22px;
+  width: 22px;
+  background-image: url("https://cdn.discordapp.com/emojis/872044285476884480.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 :root #MemberCount {
   background-color: var(--background-secondary) !important;
 }
