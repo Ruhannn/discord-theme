@@ -156,7 +156,7 @@ font-family: 'Balsamiq Sans', cursive;
   padding: 0;
 }
 :root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .avatar-1EWyVD + .nameTag-sc-gpq {display: block;max-width: 85px;}
-:root section.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > .button-12Fmur { margin: auto;}
+:root section.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > .button-12Fmur { margin: auto; margin-right: -5px;}
 :root nav.guilds-2JjMmN .scroller-2TZvBN, :root nav.guilds-2JjMmN .scroller-3X7KbA { padding-bottom: 0;}
 :root .chat-2ZfjoI .form-3gdLxP { padding-left: 16px;}
 :root .chat-2ZfjoI .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h::after, :root .chat-2ZfjoI .form-3gdLxP .wrapper-2SplAX::after { content: none;}
