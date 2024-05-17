@@ -1,14 +1,20 @@
 :root {
   --image: url("https://live.staticflickr.com/65535/52942368942_60bc551e26_o.gif");
+  --delay: 5s;
 }
+
 .appMount_c99875 .app_b1f720 {
   opacity: 0;
   transition: opacity 1.4s;
+  transition-delay: var(--delay);
+
 }
 
 .appMount_c99875:hover .app_b1f720 {
   opacity: 1;
   transition: opacity 0.3s;
+
+
 }
 
 .appMount_c99875:after {
@@ -23,7 +29,9 @@
   opacity: 1;
   backdrop-filter: blur(3px);
   transition: opacity 1.4s;
-  transition-delay: 0.5s;
+  transition-delay: var(--delay);
+
+
 }
 
 .appMount_c99875:hover:after {
