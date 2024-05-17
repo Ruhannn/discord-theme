@@ -1,0 +1,33 @@
+:root {
+  --image: url("https://live.staticflickr.com/65535/52942368942_60bc551e26_o.gif");
+}
+.appMount_c99875 .app_b1f720 {
+  opacity: 0;
+  transition: opacity 1.4s;
+}
+
+.appMount_c99875:hover .app_b1f720 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.appMount_c99875:after {
+  content: "";
+  position: fixed;
+  background: var(--image) center/8% no-repeat;
+  background-position: center;
+  background-size: 15%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  backdrop-filter: blur(3px);
+  transition: opacity 1.4s;
+  transition-delay: 0.5s;
+}
+
+.appMount_c99875:hover:after {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
