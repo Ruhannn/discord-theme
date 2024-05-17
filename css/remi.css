@@ -10,27 +10,7 @@
   transition: all 0.2s;
   transform: translateX(1px);
 }
-/*cool game*/
-.panel_bd8c76 {
-  position: relative;
-  z-index: 1;
-  padding: 16px 8px;
-}
-.panel_bd8c76 .gameWrapper_da7443 {
-  position: static;
-}
-.panel_bd8c76 .gameIcon_fc710a {
-  position: absolute;
-  bottom: -32px;
-  left: 0;
-  width: 231px;
-  height: 64px;
-  object-fit: cover;
-  border-radius: 0;
-  z-index: -1;
-  -webkit-mask-image: linear-gradient(90deg, #00000000, #000000);
-  background-position: center;
-} /* dm hover and click animation */
+/* dm hover and click animation */
 .interactive__0786a {
   transition: all 0.5s;
 }
@@ -99,7 +79,7 @@
   min-width: 0;
   width: min-content;
 }
-[class*="contentImage"] {
+.container__8d997 img {
   display: none;
   transition: all 0.5s cubic-bezier(0.09, 0.76, 0.9, 0.01);
 }
@@ -115,7 +95,7 @@
 .container_f79ab4:hover .vc-membercount-widget {
   display: flex;
 }
-.container_f79ab4:hover [class*="contentImage"] {
+.container_f79ab4:hover .container__8d997 img {
   display: block;
 }
 
