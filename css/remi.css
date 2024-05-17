@@ -99,6 +99,11 @@
   min-width: 0;
   width: min-content;
 }
+[class*="contentImage"] {
+  display: none;
+  transition: all 0.5s cubic-bezier(0.09, 0.76, 0.9, 0.01);
+}
+
 .vc-membercount-widget {
   display: none;
   transition: all 0.5s cubic-bezier(0.09, 0.76, 0.9, 0.01);
@@ -109,6 +114,9 @@
 }
 .container_f79ab4:hover .vc-membercount-widget {
   display: flex;
+}
+.container_f79ab4:hover [class*="contentImage"] {
+  display: block;
 }
 
 .members__573eb {
