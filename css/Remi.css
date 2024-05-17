@@ -1,0 +1,168 @@
+/* Channel hover and click animation */
+.containerDefault_ae2ea4 {
+  transition: all 0.5s;
+}
+.containerDefault_ae2ea4:hover {
+  transition: all 0.2s;
+  transform: translateX(-3px);
+}
+.containerDefault_ae2ea4:active {
+  transition: all 0.2s;
+  transform: translateX(1px);
+}
+/*cool game*/
+.panel_bd8c76 {
+  position: relative;
+  z-index: 1;
+  padding: 16px 8px;
+}
+.panel_bd8c76 .gameWrapper_da7443 {
+  position: static;
+}
+.panel_bd8c76 .gameIcon_fc710a {
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  width: 231px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 0;
+  z-index: -1;
+  -webkit-mask-image: linear-gradient(90deg, #00000000, #000000);
+  background-position: center;
+} /* dm hover and click animation */
+.interactive__0786a {
+  transition: all 0.5s;
+}
+.interactive__0786a:hover {
+  transition: all 0.2s;
+  transform: translateX(-3px);
+}
+.interactive__0786a:active {
+  transition: all 0.2s;
+  transform: translateX(1px);
+}
+/* chat hover and click animation */
+.messageListItem__050f9 {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.messageListItem__050f9:hover {
+  transition: all 0.2s;
+  transform: translateX(-3px);
+}
+.messageListItem__050f9:active {
+  transition: all 0.2s;
+  transform: translateX(1px);
+}
+/* server hover and click animation */
+.listItem__48528 {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.listItem__48528:hover {
+  transition: all 0.2s;
+  transform: translateX(-3px);
+}
+.listItem__48528:active {
+  transition: all 0.2s;
+  transform: translateX(1px);
+}
+/* activity hover and click animation */
+.itemCard_b64118 {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.itemCard_b64118:hover {
+  transition: all 0.2s;
+  transform: translateX(-3px);
+}
+.itemCard_b64118:active {
+  transition: all 0.2s;
+  transform: translateX(1px);
+} /* Member hover animation */
+.member_aa4760 {
+  transition: all 0.5s;
+}
+.member_aa4760:hover {
+  transition: all 0.2s;
+  transform: translateX(-3px);
+}
+/* Member list */
+.members__573eb,
+.container_f79ab4 {
+  width: 64px;
+  transition: width 0.3s ease;
+}
+
+.membersWrap__5ca6b {
+  min-width: 0;
+  width: min-content;
+}
+.vc-membercount-widget {
+  display: none;
+  transition: all 0.5s cubic-bezier(0.09, 0.76, 0.9, 0.01);
+}
+.container_f79ab4:hover,
+.container_f79ab4:hover .members__573eb {
+  width: 300px;
+}
+.container_f79ab4:hover .vc-membercount-widget {
+  display: flex;
+}
+
+.members__573eb {
+  max-width: none;
+}
+/* Mac Like Titlebar */
+[class*="typeWindows"] {
+  margin: 0;
+  height: 24px;
+}
+[class*="typeWindows"] {
+  margin-left: 3px !important;
+}
+
+[class*="typeWindows"] [class*="winButton"] > svg {
+  display: none;
+}
+[class*="typeWindows"] [class*="winButton"]:hover {
+  background-color: #1c2030;
+}
+[class*="typeWindows"] [class*="winButton"] {
+  pointer-events: none;
+  margin-left: -4px;
+  top: 0;
+}
+[class*="typeWindows"] [class*="winButton"]::after {
+  content: "";
+  padding: 7px;
+  border-radius: 50px;
+  pointer-events: fill;
+  transition-duration: 200ms;
+}
+[class*="typeWindows"] .winButtonClose__6396d::after {
+  background-color: #e92a2ade !important;
+  margin-top: 0px;
+}
+[class*="typeWindows"] .winButtonMinMax_caf9c8:nth-child(3)::after {
+  background-color: #12db33de !important;
+  margin-top: 0px;
+}
+[class*="typeWindows"] .winButtonMinMax_caf9c8:nth-child(4):after {
+  background-color: #f7bc1bde !important;
+  margin-top: 0px;
+}
+.typeWindows__5fa63 > div:hover::after {
+  transform: scale(1.1);
+}
+
+[class*="typeWindows"] [class*="winButton"]:nth-last-child(1) {
+  order: 2;
+}
+[class*="typeWindows"] [class*="winButton"]:nth-last-child(2) {
+  order: 3;
+}
+[class*="typeWindows"] [class*="winButton"]:nth-last-child(3) {
+  order: 1;
+}
