@@ -3,21 +3,18 @@
   --delay: 5s;
 }
 
-.appMount_c99875 .app_b1f720 {
+[class^="appMount_"] [class^="app_"] {
   opacity: 0;
   transition: opacity 1.4s;
   transition-delay: var(--delay);
-
 }
 
-.appMount_c99875:hover .app_b1f720 {
+[class^="appMount_"]:hover [class^="app_"] {
   opacity: 1;
   transition: opacity 0.3s;
-
-
 }
 
-.appMount_c99875:after {
+[class^="appMount_"]:after {
   content: "";
   position: fixed;
   background: var(--image) center/8% no-repeat;
@@ -30,11 +27,9 @@
   backdrop-filter: blur(3px);
   transition: opacity 1.4s;
   transition-delay: var(--delay);
-
-
 }
 
-.appMount_c99875:hover:after {
+[class^="appMount_"]:hover:after {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s;
