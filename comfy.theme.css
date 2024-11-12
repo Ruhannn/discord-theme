@@ -5,9 +5,14 @@
 */
 @import "https://raw.githubusercontent.com/Ruhannn/discord-theme/main/comfy/main.css";
 @import url("https://raw.githubusercontent.com/NYRI4/Discolored/master/main.css");
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-::-webkit-input-placeholder, body, button, input, select, textarea {
-font-family: 'Balsamiq Sans', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Balsamiq Sans", cursive;
 }
 :root {
   --disable-animations: 2s channel-unread infinite;
@@ -83,7 +88,99 @@ font-family: 'Balsamiq Sans', cursive;
   --activity-card-background: #c2c2c9;
   --input-background: #cecfd4;
 }
-/*transparent call background*/
-.wrapper-1gVUIN, .minimum-fXpVNc, .callContainer-HtHELf  {
-  background: none!important;
+/* normal control for comfy*/
+:root [class^="panels_"] > [class^="container_"] > [class^="avatarWrapper_"] {
+  position: static;
+}
+
+:root
+  [class^="panels_"]
+  > [class^="container_"]
+  > [class^="avatarWrapper_"]
+  > [class^="avatar_"] {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+:root
+  [class^="panels_"]
+  > [class^="container_"]
+  > [class^="avatarWrapper_"]
+  > [class^="avatar_"]
+  foreignObject {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+:root
+  [class^="panels_"]
+  > [class^="container_"]
+  > [class^="avatarWrapper"]
+  > [class^="avatar_"]
+  [class^="pointerEvents_"] {
+  x: 22px;
+  y: 22px;
+}
+
+:root section[class^="panels_"] > [class^="container_"] {
+  height: 52px;
+  justify-content: space-between;
+}
+
+:root section[class^="panels_"] > [class^="container_"] > [class^="flex_"] {
+  position: static;
+  flex-direction: row;
+  width: unset;
+  z-index: unset;
+  background: transparent;
+  padding: 0;
+}
+
+:root
+  [class^="panels_"]
+  > [class^="container_"]
+  > [class^="avatarWrapper"]
+  > [class*="avatar_"]
+  + [class*="nameTag_"] {
+  display: block;
+  max-width: 50px;
+  /* max-width: 85px; */
+}
+
+:root
+  section[class^="panels_"]
+  > [class^="container_"]
+  > [class^="flex_"]
+  > [class^="button_"] {
+  margin: auto;
+}
+
+:root nav [class^="guilds_"] [class^="scroller-"],
+:root nav[class^="guilds_"] [class^="scroller_"] {
+  padding-bottom: 0;
+}
+
+:root [class^="chat_"] [class^="form_"] {
+  padding-left: 16px;
+}
+
+/* Spotify Controls */
+#vc-spotify-progress-bar [class^="bar"] {
+  height: 6px !important;
+}
+
+[id^="popout_"] [class^="bar"] {
+  height: 4px !important;
+}
+
+[class*="vc-spotify-time"] {
+  display: none !important;
+}
+
+#vc-spotify-progress-bar > [class^="slider"] [class^="grabber"] {
+  margin-top: 1px !important;
+}
+/* transparent */
+[class^="callContainer_"] {
+  background-color: #1e2233;
 }
