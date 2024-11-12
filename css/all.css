@@ -208,16 +208,6 @@ a[href="/family-center"] {
  [class^="imageContent_"] {
     width: auto !important;
 }
-/* ROOT */
-:root {
-  --image: url("https://live.staticflickr.com/65535/52942368942_60bc551e26_o.gif");
-  --delay: 15000s;
-  --spotify-height: 226px;
-  --expanded-margin-left: 0px;
-  --small-margin-left: 0px;
-  --spotify-image-border-radius: 5px;
-  --vc-toolbox-icon: url("https://cdn.discordapp.com/emojis/636407813144576010.webp?size=80&quality=lossless");
-}
 
 /* 
 
