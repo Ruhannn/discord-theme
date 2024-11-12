@@ -1,0 +1,302 @@
+a[href="/family-center"] {
+  display: none;
+}
+
+/* typing animation */
+[class^="typing_"] [class^="text_"] {
+  display: flex;
+  align-items: center;
+}
+
+[class^="typing_"] [class^="text_"] strong {
+  margin: 0 3px;
+  line-height: 21px;
+  animation: slideUp 300ms;
+}
+
+@keyframes slideUp {
+  0% {
+    margin-top: -50px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+/*chat box*/
+[class^="channelTextArea_"] [class^="buttons_"] > * {
+  position: relative;
+  top: -44px;
+}
+
+[class^="channelTextArea_"]:hover [class^="buttons_"] > * {
+  top: 0;
+}
+
+/* tan */
+[class^="channelTextArea_"] [class^="buttons_"] > :first-child {
+  transition: top 300ms;
+  display: none;
+}
+
+[class^="channelTextArea_"] [class^="buttons_"] > :nth-child(2) {
+  transition: top 250ms;
+}
+
+[class^="channelTextArea_"] [class^="buttons_"] > :nth-child(3) {
+  transition: top 200ms;
+}
+
+[class^="channelTextArea_"] [class^="buttons_"] > :last-child {
+  transition: top 150ms;
+}
+
+/* Vencord toolbox Logo */
+.vc-toolbox-btn svg path {
+  display: none;
+}
+
+.vc-toolbox-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--vc-toolbox-icon);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+/* cute gif on control */
+[class^="panels_"]::before {
+  content: "";
+  width: 47px;
+  height: 44px;
+  left: 185px;
+  margin-top: -44px;
+  position: absolute;
+  background-image: url("https://cdn.discordapp.com/emojis/1105870509985509508.gif?size=48&name=kurukuru_seseren&quality=lossless");
+}
+
+/* Channel hover and click animation */
+[class^="containerDefault_"] {
+  transition: all 0.5s;
+}
+
+[class^="containerDefault_"]:hover {
+  transition: all 0.2s;
+  transform: translatex(-3px);
+}
+
+[class^="containerDefault_"]:active {
+  transition: all 0.2s;
+  transform: translatex(1px);
+}
+
+/*cool game*/
+[class^="panel_"] {
+  position: relative;
+  z-index: 1;
+  padding: 16px 8px;
+}
+
+[class^="panel_"] [class^="gameWrapper_"] {
+  position: static;
+}
+
+[class^="panel_"] [class^="gameIcon_"] {
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  width: 231px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 0;
+  z-index: -1;
+  -webkit-mask-image: linear-gradient(90deg, #00000000, #000000);
+  background-position: center;
+}
+
+/* dm hover and click animation */
+[class^="interactive_"] {
+  transition: all 0.5s;
+}
+
+[class^="interactive_"]:hover {
+  transition: all 0.2s;
+  transform: translatex(-3px);
+}
+
+[class^="interactive_"]:active {
+  transition: all 0.2s;
+  transform: translatex(1px);
+}
+
+/* chat hover and click animation */
+[class^="messageListItem_"] {
+  transition: all 0.5s;
+}
+
+[class^="messageListItem_"]:hover {
+  transition: all 0.2s;
+  transform: translatex(-3px);
+}
+
+[class^="messageListItem_"]:active {
+  transition: all 0.2s;
+  transform: translatex(1px);
+}
+
+/* server hover and click animation */
+[class^="listItem_"] {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+[class^="listItem_"]:hover {
+  transition: all 0.2s;
+  transform: translatex(-3px);
+}
+
+[class^="listItem_"]:active {
+  transition: all 0.2s;
+  transform: translatex(1px);
+}
+
+/* activity hover and click animation */
+[class^="itemCard_"] {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+[class^="itemCard_"]:hover {
+  transition: all 0.2s;
+  transform: translatex(-3px);
+}
+
+[class^="itemCard_"]:active {
+  transition: all 0.2s;
+  transform: translatex(1px);
+}
+
+/* Member hover animation */
+[class^="member_"] {
+  transition: all 0.5s;
+}
+
+[class^="member_"]:hover {
+  transition: all 0.2s;
+  transform: translatex(-3px);
+}
+
+/* cute emohi btn */
+[class^="sprite_"] {
+  filter: none !important;
+  background: url("https://cdn.discordapp.com/emojis/1010211267451031552.gif")
+    center/contain no-repeat !important;
+}
+
+[class*="spriteGreyscale_"] {
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+/* fix embed */
+ [class^="imageContent_"] {
+    width: auto !important;
+}
+/* ROOT */
+:root {
+  --image: url("https://live.staticflickr.com/65535/52942368942_60bc551e26_o.gif");
+  --delay: 15000s;
+  --spotify-height: 226px;
+  --expanded-margin-left: 0px;
+  --small-margin-left: 0px;
+  --spotify-image-border-radius: 5px;
+  --vc-toolbox-icon: url("https://cdn.discordapp.com/emojis/636407813144576010.webp?size=80&quality=lossless");
+}
+
+/* 
+
+
+
+
+
+
+
+dont u dare touch
+
+
+
+
+
+
+
+/* banner */
+/* 
+ :is([class*="userProfile"], [class*="userPopout"]) [class*="bannerPremium"] {
+  background: var(--banner-image) center / cover no-repeat !important;
+}
+[class*="NonPremium"]:has([class*="bannerPremium"]) [class*="avatarPositionNormal"],
+[class*="PremiumWithoutBanner"]:has([class*="bannerPremium"]) [class*="avatarPositionPremiumNoBanner"] {
+    top: 76px;
+  background-image:var(--banner-image)!important;
+} */
+
+/* [style*="background-image"] [class*="background_"] {
+  background: var(--banner-image) !important;
+} */
+/* [src^="https://cdn.discordapp.com/avatars/819191621676695563/"] {
+    content: url("https://media.discordapp.net/attachments/1065689957525630997/1131763330328047706/aZKs1Pm.gif");
+} */
+
+
+/* test */
+.panelSubtextContainer_b2ca13,
+/* Hide status/username viewer near mic button */
+.newMemberBadge_ed263a,
+/* No "New member" badge */
+div[class*="listItem"]:has(div[aria-label="Explore Discoverable Servers"]),
+/* Hide 'Explore Discoverable Servers' in server page */
+.text_e40c16,
+/* Remove loading quote */
+.threadSuggestionBar_b11c5e,
+/* Hide thread suggestion in reply */
+div.themed_a0.item_a0.item_c2739c:nth-of-type(4),
+/* No "Actie now" tab */
+button[aria-label="Open GIF picker"],
+/* Hide GIF picker button */
+button[aria-label="Open sticker picker"],
+/* Hide sticker picker button */
+[class^=bar__]:has([class^=voiceChannelsIcon__]),
+/* Hide "x in vc" scroll indicator */
+[aria-label="Help"],
+/* Removes "Support" question mark button */
+[aria-label="Start Video Call"],
+/* remove video call button */
+[aria-label="Show User Profile"],
+/* Remove Show User Profile button */
+[aria-label="Add Friends to DM"],
+/* Remove Add Friends to DM button */
+[aria-label="Threads"],
+/* Remove Threads button in topbar */
+[aria-label="Notification Settings"],
+/* Remove Notification Settings button in topbar */
+.divider_d2b491.divider_ae36e5,
+/* Remove dividing line in profile */
+[class^="iconGroup"]:has([class^="hangStatusIcon"]) {
+  display: none !important;
+}
+
+/* .guilds_a4d4d9 {
+  width: 10px;
+  transition: width 0.2s ease 0.1s, opacity 0.2s ease 0.1s;
+  opacity: 0;
+}
+.guilds_a4d4d9:hover {
+  width: 65px;
+  opacity: 100;
+} */
