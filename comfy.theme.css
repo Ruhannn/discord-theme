@@ -182,5 +182,5 @@ textarea {
 }
 /* transparent */
 [class^="callContainer_"] {
-  background-color: #1e2233;
+    background-color: var(--background-tertiary);
 }
