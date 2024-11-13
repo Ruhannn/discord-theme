@@ -86,3 +86,10 @@
    size: 20px;
     background: url('https://media.tenor.com/MMH9J6lhSNsAAAAi/ayaka-genshin.gif') center/contain no-repeat !important;
 }
+
+[id^="chat-messages-"] >div >[class^="buttonContainer_"] >div >div {
+
+  background-color: var(--background-secondary);
+  
+}
+
