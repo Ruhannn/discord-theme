@@ -184,3 +184,7 @@ textarea {
 [class^="callContainer_"] {
     background-color: var(--background-tertiary);
 }
+[id^="chat-messages-"] >div >[class^="buttonContainer_"] >div >div {
+  background-color: var(--background-secondary);
+  
+}
